@@ -104,7 +104,7 @@
             <TextView
                 style="@style/IMTbleLine_TextName"
                 android:layout_centerVertical="true"
-                android:text="璞丽会" />
+                android:text="夜恋社区" />
 
             <ImageView
                 style="@style/IMTbleLine_ArrowImg.Me"

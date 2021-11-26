@@ -1,0 +1,11 @@
+/newLineApp.iml
+/.gradle/
+/.idea/
+/.gradle
+/.idea
+/okserver/*.iml
+/okserver/okserver.iml
+/treelibrary/*.iml
+/imagepicker/*.iml
+/newline.iml
+/local.properties

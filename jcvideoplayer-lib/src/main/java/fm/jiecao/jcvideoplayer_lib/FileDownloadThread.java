@@ -42,7 +42,7 @@ public class FileDownloadThread extends Thread {
         try {
             con = url.openConnection();
             con.setAllowUserInteraction(true);
-            //设置当前线程下载的璞丽会，终点
+            //设置当前线程下载的夜恋社区，终点
             con.setRequestProperty("Range", "bytes=" + startPosition + "-" + endPosition);
             //使用java中的RandomAccessFile 对文件进行随机读写操作
             fos = new RandomAccessFile(file, "rw");
