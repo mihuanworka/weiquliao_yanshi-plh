@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/messageFragment">
+
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.ydd.yanshi.fragment.MessageFragment"
+        android:label="fragment_page1"
+        tools:layout="@layout/fragment_message">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/friendFragment"
+        android:name="com.ydd.yanshi.fragment.FriendFragment"
+        android:label="fragment_page2"
+        tools:layout="@layout/fragment_friend">
+
+    </fragment>
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.ydd.yanshi.ui.WebviewFragment"
+        android:label="fragment_page2"
+        tools:layout="@layout/fragment_webview">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/squareFragment"
+        android:name="com.ydd.yanshi.fragment.SquareFragment"
+        android:label="fragment_page2"
+        tools:layout="@layout/fragment_friend">
+
+    </fragment>
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.ydd.yanshi.fragment.DiscoverFragment"
+        android:label="fragment_page1"
+        tools:layout="@layout/fragment_discover">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/meFragment"
+        android:name="com.ydd.yanshi.fragment.MeFragment"
+        android:label="fragment_page2"
+        tools:layout="@layout/fragment_me">
+
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,1895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">速话</string>
+    <string name="data_exception">データが異常なので後ほど再試行してください</string>
+    <string name="net_exception">ネットワーク異常,あとで再試行してください</string>
+    <string name="please_wait">ちょっと待ってください。</string>
+    <string name="load_failed_click_again">ロードに失敗したら、「リロード」をクリック</string>
+    <string name="yes">は</string>
+    <string name="no">いいえ</string>
+    <string name="no_data">仮根拠</string>
+    <string name="saveing">保存中…</string>
+    <string name="save_success">保存に成功する</string>
+    <string name="save_failed">保存に失敗する</string>
+    <string name="add">新たに</string>
+    <!-- 调用系统拍照的字符串 -->
+    <string name="c_take_picture">撮影</string>
+    <string name="c_take_picture_failed">写真撮影に失敗する</string>
+    <string name="c_photo_album">アルバム</string>
+    <string name="c_photo_album_failed">選択に失敗する</string>
+    <string name="c_crop_failed">削減に失敗する</string>
+    <!-- 城市选择 -->
+    <string name="locationing">位置を特定している</string>
+    <string name="current_location">現在の位置</string>
+    <string name="hot_city">人気のある都市</string>
+    <string name="select_city_by_province">省別に都市を選ぶ</string>
+    <string name="location_failed">ポジショニングに失敗する</string>
+    <string name="location_city">所在する都市</string>
+    <string name="select">選択</string>
+    <string name="country">国家</string>
+    <string name="province">省</string>
+    <string name="city">都市</string>
+    <string name="county">县区</string>
+    <!-- 时间显示 -->
+    <string name="to_this_day">今</string>
+    <string name="friendly_time_just_now">ばかり</string>
+    <string name="friendly_time_before_seconds">秒前</string>
+    <string name="friendly_time_before_minute">分前</string>
+    <string name="friendly_time_yesterday">昨日、</string>
+    <string name="friendly_time_before_yesterday">おととい</string>
+
+    <!-- //////////////// EditText hint text ////////////////////// -->
+    <string name="please_input_phone_number">携帯電話の番号を入力してください</string>
+    <string name="please_input_auth_code">認証コードを入力してください</string>
+    <string name="please_input_password">パスワードを入力してください</string>
+    <string name="please_confirm_password">パスワードを確認してください</string>
+    <string name="please_input_name">ニックネームを入力してください</string>
+    <string name="please_input_new_password">新しいパスワードを入力してください</string>
+    <string name="please_confirm_new_password">新しいパスワードを確認してください</string>
+    <string name="please_input_keyword">ニックネームや携帯番号を入力してください</string>
+    <string name="digits" translatable="false">0123456789 abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz</string>
+    <string name="digits_password" translatable="false">0123456789abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ`¬!"£$%^*()~=#{}[];':,./?/*-_+&#060;&#062;&#064;&#038;</string>
+    <!-- 红包个数输入框限制-->
+    <string name="digits_number" translatable="false">0123456789</string>
+
+    <!-- SpalshActivity -->
+    <string name="login">ログイン</string>
+    <string name="register">登録</string>
+    <!-- LoginActivity -->
+    <string name="user_telphone_login">携帯電話番号で登録する</string>
+    <string name="register_account">登録</string>
+    <string name="forget_password">パスワードを忘れる</string>
+    <string name="login_failed">上陸に失敗する</string>
+    <string name="connected_failed">接続失敗</string>
+    <!-- LoginHistoryActivity -->
+    <string name="switch_account">アカウントを切り替える</string>
+    <!-- DataDownloadActivity -->
+    <string name="data_update">データの更新</string>
+    <string name="data_not_update_exit">ユーザーデータの更新が完了していないので、ログアウトはログインを放棄します。ログアウトしますか?</string>
+    <!-- RegisterActivity -->
+    <string name="register_step_one">1、携帯番号を入力する</string>
+    <string name="phone_number_format_error">携帯電話番号のフォーマットが間違っている</string>
+    <string name="telphone_already_rigister">携帯番号はすでに登録されている</string>
+    <string name="phone_number_not_be_empty">携帯電話の番号は空欄にしてはいけない</string>
+    <string name="get_auth_code_failed">captchaの取得に失敗した場合は再送信してください</string>
+    <string name="auth_code_error">captchaエラー</string>
+    <string name="auth_code_overdue">captchaが無効になる</string>
+    <!-- after add -->
+    <string name="Get_Verification_Code">認証コードを取得する</string>
+    <string name="Password_Login">パスワード登録</string>
+    <string name="Verification_Code_Login">認証コード登録</string>
+    <!-- RegisterPasswordActivity -->
+    <string name="register_step_two">2、暗証番号を書く</string>
+    <string name="password_empty_error">パスワードはnullではなく、6文字より長い</string>
+    <string name="confirm_password_empty_error">パスワードがnullではなく、6文字以上の長さであることを確認する</string>
+    <string name="password_confirm_password_not_match">パスワードと確認パスワードが一致しない</string>
+    <string name="cancel_register_prompt">この登録をキャンセルしますか?</string>
+    <!-- RegisterUserBasicInfoActivity (3、基本资料) -->
+    <string name="register_step_three">3、基本資料</string>
+    <string name="register_error">登録に誤りがあったので再試行してください</string>
+    <string name="register_success">登録に成功する</string>
+    <!-- UserCheckedActivity -->
+    <string name="exit">退出</string>
+    <string name="login_again">再上陸する</string>
+    <string name="overdue_title">期限切れの通知</string>
+    <string name="token_overdue_des">ローカル・アクセス・トークンが期限切れになった場合、すぐに再ログインしますか?</string>
+    <string name="deficiency_data_des">ローカルデータが期限切れになったら、すぐに再登録しますか?</string>
+    <string name="logout_title">ラインオフの通知</string>
+    <string name="logout_des">あなたのアカウントは別の装置に登録されています。すぐに再登録しますか?</string>
+    <string name="you_are_offline">オフラインになりましたが、再接続しますか</string>
+    <!-- MainActivity -->
+    <string name="message">ニュース</string>
+    <string name="find">発見</string>
+    <string name="nearby">近くに</string>
+    <string name="group_chat">群の话</string>
+
+    <!-- MessageFragment -->
+    <string name="welcome_user_software">スピードチャットは大歓迎</string>
+    <string name="msg_picture">[写真]</string>
+    <string name="msg_voice">[音声]</string>
+    <string name="msg_location">[位置]</string>
+    <string name="msg_animation">[アニメ]</string>
+    <string name="msg_video">[ビデオ]</string>
+    <string name="msg_file">[ファイル]</string>
+    <string name="msg_online">メッセージ(オンライン)</string>
+    <string name="msg_offline">メッセージ(オフライン)</string>
+    <string name="msg_connect">メッセージ(接続中)</string>
+    <string name="msg_be_add_attention">誰かがあなたに注目した</string>
+    <string name="msg_be_say_hello">誰かが君に声をかけた</string>
+    <string name="msg_be_passed">もう仲良くなったんだから、話しましょう。</string>
+    <string name="msg_has_new_friend">新しい友達ができたのね</string>
+    <string name="msg_has_new_recommend_friend">あなたには新しいおすすめの友達がいる</string>
+    <string name="chat_poto">写真</string>
+    <string name="chat_camera">撮影</string>
+    <string name="chat_send_video">ビデオ</string>
+    <string name="chat_audio">音声通話</string>
+    <string name="chat_with_video">ビデオ通話</string>
+    <string name="chat_loc">位置</string>
+    <string name="chat_file">ファイル</string>
+    <string name="chat_card">名刺</string>
+    <string name="chat_red">ご祝儀のおはなし</string>
+    <string name="chat_kl_red">ご祝儀を号令する</string>
+    <string name="chat_redpacket">寸志を配る</string>
+    <string name="chat_shake">ちょっと突いてみる</string>
+    <string name="chat_collection">收藏</string>
+    <string name="chat_audio_conference">音声会議</string>
+    <string name="send">送信</string>
+    <string name="motalk_voice_chat_tip_1">言葉を押さえる</string>
+    <string name="motalk_voice_chat_tip_2">送信を緩める</string>
+    <string name="motalk_voice_chat_tip_3">指が滑ると送信をキャンセルする</string>
+    <string name="motalk_voice_chat_tip_4">指を離して送信をキャンセルする</string>
+    <string name="motalk_voice_chat_tip_5">再録音する</string>
+    <string name="motalk_voice_chat_tip_6">離しておしまい</string>
+    <!-- after add -->
+    <string name="read_burn">読んだらすぐ焚く</string>
+
+    <!-- 发现模块 -->
+    <string name="newest">互いに注目し合う</string>
+    <string name="hotest">一方的な注目</string>
+    <string name="nearest">部屋に注目する</string>
+    <string name="bisniss">私の友人</string>
+
+    <!-- 联系人模块 -->
+    <string name="MyGroups">私のグループ</string>
+    <string name="NewFriends">新しい友人</string>
+    <string name="MyLabel">私のラベル</string>
+    <string name="MobileContact">携帯電話の連絡先</string>
+
+
+    <!-- 加好友 -->
+    <string name="remark_name_format_error">備考名は合法ではなく、中国語、英語、アルファベット、下線のみを許可し、長さは3 ~ 10文字とする。</string>
+    <string name="unilateral_attention">一方的な注目</string>
+    <string name="focus_on_each_other">互いに注目し合う</string>
+    <string name="focus_room">部屋に注目する</string>
+    <string name="set_remark_name">備考名を置く</string>
+    <string name="remove_blacklist">ブラックリストから外す</string>
+    <string name="check_circle">友達の輪をチェックする</string>
+    <string name="remove_blacklist_succ">ブラックリストの削除に成功した</string>
+    <string name="add_blacklist">ブラックリストに加わる</string>
+    <string name="add_blacklist_succ">ブラックリストへの参加成功</string>
+    <string name="add_blacklist_fail">ブラックリストへの参加に失敗</string>
+    <string name="add_blacklist_prompt">ブラックリストに入るのは確実ですか?</string>
+    <string name="remove_blacklist_prompt">ブラックリストから外されるのは確実か</string>
+    <string name="his_in_the_blacklist">相手をブラックリストに入れた</string>
+    <string name="cancel_attention">フォローをやめる</string>
+    <string name="delete_all">徹底的に削除する</string>
+    <string name="cancel_attention_prompt">フォローをキャンセルすることは確実ですか?</string>
+    <string name="delete_all_prompt">完全削除操作相手もあなたをフォローしてくれたら、あなたのフォローもキャンセルします。完全削除は確実でしょうか?</string>
+    <string name="cancel_attention_succ">フォローキャンセル成功</string>
+    <string name="delete_all_succ">削除成功</string>
+    <string name="new_friend">最新の友人</string>
+    <string name="add_attention">関心を持つ</string>
+    <string name="wait_verification">検証を待つ</string>
+    <string name="add_attention_succ">成功に注目する</string>
+    <string name="add_attention_failed">フォローが失敗したら、あなたはブラックリストに載っている</string>
+    <string name="passed">通過した</string>
+    <string name="agreed">同意した</string>
+    <string name="is_the_friend">互いに親友になった</string>
+    <string name="say_hello">あいさつする</string>
+    <string name="say_hello_again">また挨拶する</string>
+    <string name="send_msg">メッセージを送る</string>
+    <string name="say_hello_succ">挨拶に成功する</string>
+    <string name="add_friend_succ">友だちを作ることに成功する</string>
+    <string name="agree">同意</string>
+    <string name="feedback_succ">返事に成功する</string>
+    <string name="feedback">返事</string>
+    <string name="simple_data_error">データエラー</string>
+    <string name="send_failed">送信に失敗した場合は後ほど再試行してください</string>
+    <string name="say_hello_dialog_title">検証メッセージ</string>
+    <string name="say_hello_dialog_hint">親,私にあなたを加える理由をあげなさい!</string>
+    <string name="say_hello_default">やあ、こんにちは。</string>
+    <string name="refused_request">相手はあなたの親友頼みを断った!</string>
+
+    <!-- 附近模块 -->
+    <string name="keyword">キーワード</string>
+    <string name="sex">性別</string>
+    <string name="min_age">最年少の年齢</string>
+    <string name="max_age">最高齢</string>
+    <string name="show_time">出現時間</string>
+    <string name="all_date">すべての日付</string>
+    <string name="all">すべて</string>
+    <string name="reset">リセット</string>
+    <string name="select_date">日付を選ぶ</string>
+    <!-- after add -->
+    <string name="add_friend">友だちを追加する</string>
+    <string name="instance_person">距离</string>
+    <string name="instance_">メートル</string>
+
+    <!-- 商务圈 -->
+    <string name="send_myspace">友達に投稿する</string>
+    <string name="send_text">文字を発行する。</string>
+    <string name="send_image">写真を配布する</string>
+    <string name="send_audio">音声配信</string>
+    <string name="send_video">動画を配信する</string>
+    <string name="delete_prompt">削除することは確実ですか?</string>
+    <string name="copy">コピー</string>
+    <string name="copy_success">複製に成功する</string>
+    <string name="praise">讃</string>
+    <string name="cancel_praise">いいねを取り消す</string>
+    <string name="comment">评论</string>
+    <string name="send_gift">贈り物をする</string>
+    <string name="replay_text"><xliff:g id="nick_name">%1$s</xliff:g>回復%1$s:</string>
+    <string name="replay">回复</string>
+    <string name="upload_failed">アップロード失敗</string>
+    <string name="pictures">写真</string>
+    <string name="level_inner" formatted="false"><xliff:g id="level">%1$d</xliff:g>% 1 $ d</string>
+    <string name="give_gift">贈り物をする</string>
+    <string name="my_business_circle">私の職業圏は</string>
+    <string name="check_praise">いいねをチェックする</string>
+    <!-- 商务圈发布界面 -->
+    <string name="play_failed">再生失敗</string>
+    <string name="audio_file_not_exist">録音ファイルが存在しない</string>
+    <string name="circle_release">発表</string>
+    <string name="circle_now_think">この瞬間の思い…</string>
+    <string name="circle_add_voice">録音を追加する</string>
+    <string name="circle_select_voice">録音は1つまで</string>
+    <string name="circle_add_image">画像を追加する</string>
+    <string name="circle_select_image">画像を選ぶ、9枚まで</string>
+    <string name="circle_select_video">動画は1つまで</string>
+    <string name="circle_add_video">動画を追加する</string>
+
+    <!-- 消息详情界面 -->
+    <string name="message_detail">詳しい話をする</string>
+    <string name="comment_count"><xliff:g id="count">%1$d</xliff:g>コメント数(%1$d)</string>
+
+    <!-- 群聊 -->
+    <string name="add_chat_ok_btn"><xliff:g id="count">%1$s</xliff:g>確定(%1$s)</string>
+    <string name="select_contacts">連絡先を選ぶ</string>
+    <string name="please_input_room_name">グループ名を入力してください</string>
+    <string name="please_input_room_desc">グループ記述を入力してください</string>
+    <string name="please_input_nicname">備考名を入力してください</string>
+
+    <string name="service_start_failed">サービス開始に失敗</string>
+    <string name="create_room">グループを作る</string>
+    <string name="room_name_empty_error">グループ名は空にできない</string>
+    <string name="room_des_empty_error">グループ記述は空ではない</string>
+    <string name="create_room_failed">グループ作成失敗</string>
+    <string name="voice_hint">1.録画ボタンをクリックして自分を紹介しましょう!\n2.60秒カウントダウンだよ。\n3.一応ご挨拶してもいいです。\n4.誕生日、趣味、性格、星座を話してもいい。</string>
+    <!-- MeFragment -->
+    <string name="my_data">私の資料</string>
+    <string name="my_friend">私の友人</string>
+    <string name="my_space">マイスペース</string>
+    <string name="local_video">動画を選ぶ</string>
+    <string name="setting">システム設定</string>
+
+    <!-- RoomInfoActivity -->
+    <string name="room_info">グループメッセージ</string>
+    <string name="notice">群内公告</string>
+    <string name="room_name">グループ名</string>
+    <string name="room_desc">グループ記述</string>
+    <string name="people_count">メンバーの上限</string>
+    <string name="my_nick_name">グループ内ニックネーム</string>
+    <string name="my_grop_pic">グループアイコンを設定する</string>
+
+    <string name="can_not_remove_self">自分自身を取り除くことはできません</string>
+    <string name="can_not_banned_self">自分のことを言ってはいけない</string>
+    <string name="banned_voice">禁言</string>
+    <string name="all_banned_voice">全員禁句</string>
+    <string name="create_chat_time">作成時間</string>
+    <string name="shield_chat">ブロックメッセージ</string>
+    <string name="update_success">更新成功</string>
+    <string name="update_success_restart">アップデートが成功すれば、アプリの再起動が有効になる</string>
+
+    <string name="change_room_name">グループ名を変更する</string>
+    <string name="change_room_des">グループの説明を修正する</string>
+    <string name="change_my_nickname">私のグループニックネームを修正します</string>
+    <string name="add_notice">公告をつける</string>
+    <!-- after add -->
+    <string name="banned_succ">禁言成功</string>
+    <string name="canle_banned_succ">禁句解除に成功</string>
+    <string name="no_shiele">ノーシールド</string>
+    <string name="yes_shiele">遮断された</string>
+
+    <!-- SettingActivity -->
+    <string name="clear_cache">キャッシュを消去する</string>
+    <string name="use_help">ヘルプを使う</string>
+    <string name="about_us">私たちについて</string>
+    <string name="privacy_setting">プライバシー設定</string>
+    <string name="vioce_audio_chat_setting">音声ビデオ通話の設定</string>
+    <string name="exit_tips">このアカウントからログアウトすることは確実ですか?</string>
+    <string name="exit_current_account">現在のアカウントからログアウトする</string>
+    <string name="deleteing">削除中…</string>
+    <string name="clear_completed">除去完了</string>
+
+    <!-- PrivacySettingActivity -->
+    <string name="allow_attention">注目を許す</string>
+    <string name="allow_greet">挨拶を許す</string>
+    <string name="friends_verify">友だちを入れて検証</string>
+    <string name="update_sccuess">修正に成功する</string>
+
+    <!-- LocalVideoActivity -->
+    <string name="size">大きさ</string>
+    <string name="time_len">时长</string>
+    <string name="create_time">作成時間</string>
+    <string name="des">描写</string>
+    <string name="hour">時間</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="video_file_not_exist">ビデオファイルが存在しない</string>
+    <string name="delete_failed">削除失敗</string>
+    <string name="select_failed">選び出すに失敗する</string>
+
+    <!-- BasicInfo -->
+    <string name="basic_info">基本資料</string>
+    <string name="name_align">「ちょっと下</string>
+    <string name="rename_align">备考</string>
+    <string name="sex_align">性别</string>
+    <string name="birthday">生年月日</string>
+    <string name="residence_align">居住地</string>
+    <string name="select_sex">性別を選ぶ</string>
+    <string name="select_avatar">アイコンを選択する</string>
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+    <string name="name_empty_error">ニックネームは空欄にしない</string>
+
+    <string name="live_address_empty_error">居住地を空にしてはならない</string>
+    <string name="nick_name_format_error">中国語、英語、アルファベット、下線のみ許可され、長さは3 ~ 10文字</string>
+    <string name="cancel_edit_prompt">あなたは現在のコンテンツを保存していませんが、ログアウトすることは確実ですか?</string>
+    <string name="upload_avataring">上載上像…</string>
+    <string name="upload_avatar_success">アップロード成功</string>
+    <string name="upload_avatar_failed">画像のアップロードに失敗した場合は、后で再試行してください。</string>
+    <string name="look_friend_location">友だちの地理を調べる</string>
+    <string name="look_friend_circle">友達の輪をチェックする</string>
+    <!-- after add -->
+    <string name="data_of_birth">親!あなたの誕生日は今を超えていますよ!</string>
+    <string name="this_friend_not_open_position">この友達は位置情報を公開していない!</string>
+    <string name="diy_name">個性サイン</string>
+
+    <!-- VideoRecordActivity -->
+    <string name="start_failed">起動に失敗する</string>
+    <string name="record_failed">収録に失敗する</string>
+    <string name="record_succ">録画に成功する</string>
+    <string name="failed_to_open_camera_1">カメラをオンにする失敗</string>
+    <string name="failed_to_open_camera_2">カメラはおそらく</string>
+    <string name="failed_to_open_camera_3">他のアプリケーションが使う?</string>
+    <string name="chooser_title">送信ファイルを選択する</string>
+    <string name="empty_directory">空フォルダ</string>
+    <string name="storage_removed">メモリーカードは見つからなかった</string>
+    <string name="choose_file">ファイルを選択する</string>
+    <string name="error_selecting_file">ファイル選択エラー</string>
+    <string name="internal_storage">ネットワークストレージ</string>
+
+    <!-- 视频、语音通话 -->
+    <string name="doubango_revision" translatable="false">1231</string>
+    <string name="spinner_ipversion">IPバージョン番号を選択する</string>
+    <string name="spinner_pcscf_discovery" translatable="false">PCSCF発見モードを選択する</string>
+    <string name="spinner_transport">ネットワーク伝送方式を選択する</string>
+    <string name="day_today">今日</string>
+    <string name="day_yesterday">昨日、</string>
+    <string name="copyright" formatted="false" translatable="false">translate fail</string>
+    <string name="string_answer">取り次ぐ</string>
+    <string name="string_endcall">切り</string>
+    <string name="string_speaker_on">拡声器を入れる</string>
+    <string name="string_speaker_off">拡声器を閉じる</string>
+    <string name="string_mute_on">ミュートにする</string>
+    <string name="string_mute_off">ミュートを切る</string>
+    <string name="string_hold">押さえ</string>
+    <string name="string_resume">回復</string>
+    <string name="string_send_video">ビデオを送る</string>
+    <string name="string_stop_video">映像を止める</string>
+    <string name="string_switch_camera">カメラの切り替え</string>
+    <string name="string_call_terminated">通話中断..</string>
+    <string name="string_incall">通話中..</string>
+    <string name="string_call_incoming">着信…</string>
+    <string name="string_call_outgoing">呼び出しています…</string>
+    <string name="string_call_cancelled">通話キャンセル…</string>
+    <string name="connectting">つなぐ</string>
+    <string name="identity">アイデンティティ情報</string>
+    <string name="network">インターネット</string>
+    <string name="codecs">コード</string>
+    <string name="natt">タイム</string>
+    <string name="registration_nok">接続失敗</string>
+    <string name="unregustration_ok">接続を切る</string>
+    <string name="registration_ok">接続済み</string>
+    <string name="registration_inprogress">接続中…</string>
+    <string name="unregistration_inprogress">切断接続中…</string>
+    <string name="unregistration_nok">切断失敗…</string>
+    <string name="audio_conference_info">友達と3000 - 3999の範囲内の4つの数字を入力して、「会議を始める」をクリックして、音声会議を始めることができます</string>
+    <string name="start_audio_conference">音声会議を始める</string>
+
+    <!-- 我的余额 -->
+    <string name="input_error">入力した数字が違う!</string>
+    <string name="records_of_consumption">消費記録</string>
+    <string name="recharge_success">チャージ成功</string>
+    <string name="recharge_amount">チャージ金額は(0.01~500.00)</string>
+    <string name="recharge_amount_not">チャージ金額を0にすることはできません!</string>
+    <string name="please_enter_a_value">値を入力してください!</string>
+
+    <!-- 企业通讯录 -->
+    <string name="company_txl">企業アドレス帳</string>
+    <string name="create_company">会社を設立する</string>
+    <string name="create_company_succ">会社を設立して成功する</string>
+    <string name="create_company_fail">会社の設立に失敗する</string>
+    <string name="company_exit">会社名はすでに存在する</string>
+    <string name="company_names">会社名</string>
+    <string name="enter_company_name">会社名を入力してください</string>
+    <string name="add_department">部門を追加する</string>
+    <string name="create_department">部門を創設する</string>
+    <string name="create_department_succ">部門を作って成功する</string>
+    <string name="create_department_fail">部門創設に失敗</string>
+    <string name="department_names">部署名</string>
+    <string name="enter_department_name">部署名を入力してください</string>
+    <string name="modify_company_name">社名を改める</string>
+    <string name="company_name_connot_null">新社名は空欄にしてはならない</string>
+    <string name="company_name_connot_same">新社名は元の社名と同じではいけない</string>
+    <string name="modify_succ">修正に成功する</string>
+    <string name="modify_fail">失敗を修正する</string>
+    <string name="new_company_name">新社名</string>
+    <string name="enter_new_company_name">新社名を入力してください</string>
+    <string name="exit_company">会社を辞める</string>
+    <string name="exi_c_succ">会社からの撤退に成功する</string>
+    <string name="exi_c_fail">会社を辞めて失敗する</string>
+    <string name="delc_company">会社を削除する</string>
+    <string name="del_c_succ">削除に成功</string>
+    <string name="del_c_fail">削除会社は失敗</string>
+    <string name="add_son_department">サブ部門を追加する</string>
+    <string name="create_son_department">サブ部門を創設する</string>
+    <string name="create_son_department_succ">サブ部門の創設に成功</string>
+    <string name="create_son_department_fail">サブ部門の創設に失敗</string>
+    <string name="son_department_names">サブ部門名</string>
+    <string name="enter_son_department_name">サブ部門名を入力してください</string>
+    <string name="add_employee">メンバーを追加する</string>
+    <string name="add_employee_succ">メンバー追加成功</string>
+    <string name="add_employee_fail">メンバー追加失敗</string>
+    <string name="modify_department_name">部門名を改める</string>
+    <string name="new_department_name">新しい部署名</string>
+    <string name="enter_new_department_name">新しい部署名を入力してください</string>
+    <string name="department_name_connot_null">新しい部署名は空欄にしてはならない</string>
+    <string name="department_name_connot_same">新しい部門名は元の部門名と同じではいけない</string>
+    <string name="delc_departm">部署を削除する</string>
+    <string name="del_d_succ">削除に成功</string>
+    <string name="del_d_fail">部署の削除に失敗</string>
+    <string name="detail">详细</string>
+    <string name="change_departement">部署を変える</string>
+    <string name="change_departement_succ">部署の変更に成功</string>
+    <string name="change_departement_fail">部署変更に失敗</string>
+    <string name="del_employee">従業員を削除する</string>
+    <string name="del_e_succ">従業員削除成功</string>
+    <string name="del_e_fail">社員削除失敗</string>
+    <string name="name_connot_null">空にしてはならない</string>
+    <string name="notices">公告:</string>
+    <string name="no_notice">公告はまだない</string>
+    <string name="sure_modify">修正を確認する</string>
+    <string name="check_network">ネットワークをチェックしてください</string>
+    <string name="sure_delete_company">同社の削除は確定ですか?</string>
+    <string name="connot_del_company">会社の設立者でなければ、その会社を削除することはできません!</string>
+    <string name="sure_exit_company">同社からの撤退は確定ですか?</string>
+    <string name="have_person_connot_del">同部門に人がいるので削除できない</string>
+    <string name="connot_del_self">自分を消してはいけない</string>
+    <string name="create_connot_dels">会社の設立者は削除できない</string>
+
+    <string name="new_apk_download">最新のパッケージがありますので、ダウンロードしてください。</string>
+    <string name="application_version_update_down">既知の問題を修正し、ユーザー体験を向上させました。</string>
+    <string name="application_update">ソフトウェアの更新</string>
+    <string name="download">ダウンロード</string>
+
+    <string name="empty">空</string>
+    <string name="you_have_one_live_room">あなたにはもう生放送があります</string>
+    <string name="name_cannot_ull">名前は空欄にしてはいけない</string>
+    <string name="notice_cannot_null">公告を空欄にしてはならない</string>
+    <string name="top_tv">装</string>
+    <string name="str_input_code">グラフィックスコード</string>
+    <string name="input_code_iamge">グラフィックスcaptchaエラー</string>
+
+    <string name="name_course_error">コース名は空欄にしてはいけない</string>
+    <string name="please_input_course_desc">コース名を入力してください</string>
+    <string name="create_course">カリキュラムの作成</string>
+    <string name="switch_language">言葉を切り替える</string>
+    <string name="change_tip">言語切り替え成功、再ログインしてください</string>
+    <string name="pay_result_callback_msg">微信決済結果:%s</string>
+
+    <string name="set_chat_bg">会話の背景</string>
+    <string name="cover_chat_bg">还元</string>
+    <string name="allow_exit_app_revice">アプリをログアウトしてメッセージを受信できるようにする</string>
+
+    <!-- Todo Create by 2018/5/23 -->
+    <string name="mass_messaging">一斉送信メッセージ</string>
+    <string name="select_recipient">宛先を選ぶ</string>
+    <string name="select_all">全テーマ検索</string>
+    <string name="cancel">キャンセル</string>
+    <string name="next_step">次のステップ</string>
+    <string name="search">検索</string>
+    <string name="mass">同报机</string>
+    <string name="you_will_send_a_message_to">メッセージを送ります</string>
+    <string name="bit">位</string>
+    <string name="friend">友达</string>
+
+    <string name="perceptual_pink">感受性パウダー</string>
+
+    <string name="chat_font">チャットフォント</string>
+    <string name="font_size">書体の大きさ</string>
+    <string name="finish">完成</string>
+    <string name="standard">標準</string>
+
+    <string name="turn_on_vibration">ニュースが来ると震える</string>
+
+    <string name="my_purse">私の資産</string>
+    <string name="expenses_record">消費記録</string>
+    <string name="my_change">私の資産</string>
+    <string name="recharge">充電</string>
+    <string name="select_payment_method">支払い方法を選択する</string>
+    <string name="total">通算</string>
+    <string name="wechat_pay">ウィーチャットペイ</string>
+    <string name="alipay_pay">アリペイ決済</string>
+    <string name="withdraw">やり取りするだけ</string>
+    <string name="withdrawal_instructions">キャッシュの説明</string>
+    <string name="arrival_micro_signal">マイクロ信号を送信します</string>
+    <string name="withdrawal_fee_rate">引出し手数料率0.1%</string>
+    <string name="withdrawal_amount">引き出し金額</string>
+    <string name="change_balance">小銭残高￥</string>
+    <string name="all_withdrawals">すべて現金化する</string>
+
+    <string name="modify_job">職位を改める</string>
+    <string name="delete">削除</string>
+    <string name="most_recent_contact">最近連絡先</string>
+    <string name="create_new_chat">新しいチャットを作る</string>
+    <string name="recent_chat">最近雑談をする</string>
+    <string name="select_group_chat_instant">群を選んで</string>
+    <string name="determine_send_to">送信を確定します:</string>
+
+    <string name="sure">確定</string>
+
+    <string name="location">所在位置</string>
+    <string name="who_can_see">誰が見ても</string>
+    <string name="publics">公開</string>
+    <string name="all_friends_are_visible">全ての友人に</string>
+    <string name="privates">プライベート</string>
+    <string name="self_only_visible">自分にしか見えない</string>
+    <string name="partially_visible">部分的に見える</string>
+    <string name="selected_friends_are_visible">選ばれた友</string>
+    <string name="not_to_see_who">だれにも見せない</string>
+    <string name="selected_friends_are_not_visible">選んだ友は見えない</string>
+    <string name="remind_who_to_see">誰かに注意する</string>
+    <string name="ban_pinlun">すべての人は批評してはいけない</string>
+
+    <string name="look_over">チェック</string>
+    <string name="collection">收藏</string>
+
+    <string name="group_qr_code">グループ二次元コード</string>
+    <string name="via_invitations">群主は進群検証を開始しており,招請による進群のみが可能である</string>
+    <string name="group_creator">郡の創設者</string>
+    <string name="not_disturb">情報は邪魔するな</string>
+    <string name="news_push">オンにするとグループのメッセージを受信しなくなります</string>
+    <string name="receive_messages">ブロックされたグループのメッセージは受信されません</string>
+    <string name="group_management">群管理</string>
+    <string name="invitation_confirmation">グループ招待確認</string>
+    <string name="need_to_be_confirmed">采用后、グループのメンバーはグループの主が確認しなければ友達をグループに招待できない。</string>
+
+    <string name="chat_settings">チャット設定</string>
+    <string name="start_group_chat">グループチャットを始める</string>
+    <string name="chat_background">会話の背景</string>
+    <string name="reselection">補欠選挙</string>
+
+    <string name="prompt_title">提示</string>
+    <string name="moments">友だちの輪</string>
+    <string name="my_moments">私の動き</string>
+
+    <string name="create_group">グループチャットを作る</string>
+    <string name="add_friends">友だちを増やす</string>
+    <string name="scanning">扫ヤード</string>
+    <string name="near_person">近所の人</string>
+
+    <string name="near_male">男だけを見る</string>
+    <string name="near_famale">女だけを見る</string>
+    <string name="near_all">性別を問わない</string>
+    <string name="near_cancel">キャンセル</string>
+
+    <string name="contacts">アドレス帳</string>
+    <string name="searchNum">アカウント/携帯番号/ID検索</string>
+    <string name="me">私が</string>
+    <string name="phone_number">携帯電話番号</string>
+    <string name="search_friend">親友を捜索する</string>
+    <string name="group">の集団</string>
+    <string name="tag">ラベル</string>
+    <string name="remark_tag">ラベルを付けて連絡先を分類する</string>
+    <string name="service_number">公衆番号</string>
+    <string name="my_device">私の設備は</string>
+    <string name="black_list">ブラックリスト</string>
+    <string name="my_colleague">私の同僚</string>
+    <string name="delete_me">私を削除した</string>
+    <string name="add_me_as_friend">私を友達に加える</string>
+    <string name="added_friend">友だちを追加した</string>
+    <string name="cancel_black_me">ブラックリストを取り消した</string>
+    <string name="pass">検証を通す</string>
+    <string name="answer">返事</string>
+    <string name="system_public_number">お客様サービスのおはなし</string>
+    <string name="alert_select_one">「友達」または「タグ」を少なくとも1つ選んでください</string>
+    <string name="permanent">永久に</string>
+    <string name="no_sync">同期しない</string>
+    <string name="one_hour">1時間</string>
+    <string name="one_day">1日</string>
+    <string name="one_week">1周间</string>
+    <string name="one_month">1月</string>
+    <string name="one_season">1四半期</string>
+    <string name="one_year">1年</string>
+    <string name="multi_login_need_reboot">マルチデバイスのオン/オフは、アプリを再起動すると有効になる</string>
+    <string name="change_server_address">サーバーのアドレスを変更する</string>
+    <string name="clean">空</string>
+    <string name="illegal_input">入力が違法である</string>
+    <string name="simplified_chinese">簡体字中国語</string>
+    <string name="traditional_chinese">繁体中国語</string>
+    <string name="english">英文</string>
+    <string name="need_input_money">金額を入力してください!</string>
+    <string name="red_packet_range">ご祝儀の総額は0.01~500.00の間です!</string>
+    <string name="balance_not_enough">あなたの残高が足りません!</string>
+    <string name="need_red_packet_count">ご祝儀の数を入力してください!</string>
+    <string name="rmb">元</string>
+    <string name="get_red_packet_failed">ご祝儀の受け取りに失敗</string>
+    <string name="someone_s_red_packet_place_holder">%sのご祝儀</string>
+    <string name="click_recode">録画をクリックする</string>
+    <string name="upload">掲載</string>
+    <string name="create_tag">新しいラベル</string>
+    <string name="group_owner">群主</string>
+    <string name="send_to_friend">友人に送る</string>
+    <string name="pay_success">支払いが成功する</string>
+    <string name="system_public_number_help">使用時の問題解決を支援し、使用中のアドバイスのフィードバックを集める。</string>
+    <string name="enter_public_number">公衆番号にアクセスする</string>
+    <string name="qrcode">qrコード</string>
+    <string name="now_location">所在位置</string>
+    <string name="sync_local_contacts">ローカルアドレス帳の同期化</string>
+    <string name="tag_name">ラベル名</string>
+    <string name="hint_tag_name">例:家族、友人</string>
+    <string name="example_tag_member">タグメンバー(0)</string>
+    <string name="add_member">メンバーを追加する</string>
+    <string name="preview_font_size">フォントサイズのプレビュー</string>
+    <string name="hint_change_font_size">下のスライドをドラッグするとフォントサイズを設定できる</string>
+    <string name="change_password">パスワードを変更する</string>
+    <string name="design_admin">管理人を指定する</string>
+    <string name="cancel_admin">管理人をキャンセルする</string>
+    <string name="transfer_group_owner">群主管理権の譲渡</string>
+    <string name="private_group">プライベート・グループ</string>
+    <string name="hint_private_group">有効にすると、現在のグループは検索できません。</string>
+    <string name="display_read_number">既読者数を表示する</string>
+    <string name="hint_display_readed_number">有効にすると、現在のグループのメッセージページの各メッセージの左側にそのメッセージの既読者数が表示され、クリックすると既読者リストを見ることができる。</string>
+    <string name="display_member">グループメンバの表示を許可する</string>
+    <string name="hint_desplay_member">閉じると、一般メンバーはグループメッセージ内で他のグループメンバーを見ることができなくなり、グループオーナーと自分だけが表示される。</string>
+    <string name="member_chat_privately">一般メンバーに私信を許す</string>
+    <string name="hint_member_chat_privately">閉じた后に名刺のメッセージを送信することを許可しないで、しかも普通のメンバーはグループチャットのインターフェイスで、グループの情報内をクリックして頭像の反応がありません。</string>
+    <string name="member_invite_friends">一般メンバーが友人を招待することを許す</string>
+    <string name="hint_member_invite_friends">オフにすると、一般メンバーは招待機能を利用できなくなります。</string>
+    <string name="member_upload">一般メンバーのアップロードを許可する</string>
+    <string name="hint_member_upload">閉鎖後、一般メンバーはグループ共有ファイルのアップロードやファイルメッセージの送信ができなくなる。</string>
+    <string name="member_meetings">一般メンバーによる会議の開催を認める</string>
+    <string name="hint_member_meetings">閉鎖後は,一般メンバーが自発的に音声会議やテレビ会議を始めることはできなくなる。</string>
+    <string name="member_course">一般メンバーによる講義開始を認める</string>
+    <string name="hint_member_course">閉鎖後、一般メンバーはグループ内でTaの講義を送信することができなくなる。</string>
+    <string name="hang_up">切り</string>
+    <string name="invite_friends">友人1人をグループチャットに誘う</string>
+    <string name="reason_invite_friends">彼はわれわれに加わりたがっている</string>
+    <string name="pass_invite">招待を確認する</string>
+    <string name="no_tag">ラベルなし</string>
+    <string name="hint_tag">タグで連絡先の検索と管理が簡単にできます</string>
+    <string name="input_password">パスワードを入力する</string>
+    <string name="btn_login">同意して登録する</string>
+    <string name="example_file_name">IM音声ビデオプレビューファイル</string>
+    <string name="example_file_type">文書は</string>
+    <string name="example_file_size">11.3MBより</string>
+    <string name="example_name">胡○</string>
+    <string name="file_type_not_support">このフォーマットのファイルプレビューはサポートしていません</string>
+    <string name="send_red_packet">寸志を配る</string>
+    <string name="balance">残高</string>
+    <string name="default_balance" translatable="false">0.00</string>
+    <string name="input_recharge_money">チャージ金額を入力してください</string>
+    <string name="hint_money">金額</string>
+    <string name="recharge_5">5元</string>
+    <string name="recharge_10">10元</string>
+    <string name="recharge_20">20元</string>
+    <string name="recharge_50">50元</string>
+    <string name="recharge_100">100元</string>
+    <string name="recharge_200">200元</string>
+    <string name="recharge_300">300元</string>
+    <string name="recharge_500">500元</string>
+    <string name="put_forward">やり取りするだけ</string>
+    <string name="wepay">ウィーチャットペイ</string>
+    <string name="example_total_money" translatable="false">666</string>
+    <string name="money_total">総計:</string>
+    <string name="remark_name">注記名</string>
+    <string name="delete_after_read">読んだらすぐ焚く</string>
+    <string name="pined_session">上を向いておしゃべりする</string>
+    <string name="message_avoidance">情報は邪魔するな</string>
+    <string name="message_auto_delete">メッセージの期限切れは自動的に破棄する</string>
+    <string name="clean_chat_history">チャット記録を空にする</string>
+    <string name="message_roaming_duration">メッセージローミング時間</string>
+    <string name="know_typing">入力していることを知らせる</string>
+    <string name="multi_device">マルチデバイスログインに対応</string>
+    <string name="keeplive">プロセスの保存を許可する</string>
+    <string name="use_google_map">googleマップを使って</string>
+    <string name="group_message_sync_time">グループチャットのメッセージ同期時間</string>
+    <string name="new_friend_verify">友だち検証が必要</string>
+    <string name="encrypt_message">メッセージの暗号化</string>
+    <string name="close">閉鎖</string>
+    <string name="title_red_packet">封筒</string>
+    <string name="red_packet_history">ご祝儀の記録</string>
+    <string name="someone_s_red_packet">…\'sのご祝儀</string>
+    <string name="best_wishes">めでたく金持ちになって、大吉大利!</string>
+    <string name="example_red_packet_remain">現金封筒の2/3を受け取り、残り0.18/2元</string>
+    <string name="default_phone_number_prefix" translatable="false">+ 86</string>
+    <string name="hint_password">パスワードを設定する</string>
+    <string name="graphic_code">グラフィックスコード</string>
+    <string name="verification_code">captcha</string>
+    <string name="hint_login">アカウントがあるから登録する</string>
+    <string name="btn_register">注册</string>
+    <string name="gorup_member">グループメンバー</string>
+    <string name="group_file">グループファイル</string>
+    <string name="search_chat_history">チャット履歴を調べる</string>
+    <string name="report">告発</string>
+    <string name="exit_group">グループを抜ける</string>
+    <string name="hint_selec_tag">タグを選んで一斉送信する</string>
+    <string name="public_group">公開</string>
+    <string name="input_tag">ラベルを入力する</string>
+    <string name="all_tag">すべてのラベル</string>
+    <string name="search_member">グループメンバーを探索する</string>
+    <string name="relatedToMe">私に関係がある</string>
+    <string name="confirm">確定</string>
+    <string name="myCellPhoneNumber">私の携帯番号</string>
+    <string name="modificationSubmission">修正して提出する</string>
+    <string name="myCity">私の町</string>
+    <string name="clean_cache">キャッシュを消去する</string>
+    <string name="clean_all_chat_history">チャット記録をすべて空にする</string>
+    <string name="notCertified">未認証</string>
+    <string name="certified">認証済み</string>
+    <string name="headPortrait">顔</string>
+    <string name="change_skin">肌の切り替え</string>
+    <string name="private_settings">プライバシー設定</string>
+    <string name="about_me">私たちについて</string>
+    <string name="mypicture">私の写真</string>
+    <string name="viewOrEditProfile">プロフィールの閲覧や編集</string>
+    <string name="live_name">生放送の名称</string>
+    <string name="start_live">生放送を始める</string>
+    <string name="live_content">直播公告</string>
+    <string name="recharge_01">0.1円</string>
+    <string name="recharge_1000">1000元</string>
+    <string name="recharge_5000">5000元</string>
+    <string name="recharge_10000">10000元</string>
+    <string name="default_total_money" translatable="false">￥——</string>
+    <string name="emoji">表情</string>
+    <string name="animation">アニメ</string>
+    <string name="custom_emoticons">表情をカスタマイズする</string>
+    <string name="canceled">取り消しになった</string>
+    <string name="message_service">伝達</string>
+    <string name="example_chat_history_content">XXXとYYYのチャット記録</string>
+    <string name="example_chat_content_1">XXX:[画像]</string>
+    <string name="example_chat_content_2">YYY:[紅包]</string>
+    <string name="chat_history">チャット記録</string>
+    <string name="read_all_content">全文を読む</string>
+    <string name="system_message">システムメッセージ</string>
+    <string name="video">ビデオ</string>
+    <string name="manager">管理</string>
+    <string name="main_page">ホームページ</string>
+    <string name="title_balance_not_enough">残高が足りない</string>
+    <string name="hint_balance_not_enough">現在残高が不足しているので、チャージしないとプレゼントを送り続けることができない。</string>
+    <string name="example_balance_recharge">残高チャージ</string>
+    <string name="example_money">100.00円</string>
+    <string name="video_call">ビデオ通話</string>
+    <string name="voice_call">音声通話</string>
+    <string name="group_verification">進群検証を開始する</string>
+    <string name="save_gallery">アルバムに保存する</string>
+    <string name="btn_forward">トランス発</string>
+    <string name="btn_delete">削除を</string>
+    <string name="btn_detail">详情</string>
+    <string name="btn_cancel">取り消</string>
+    <string name="forward_each">逐条転送</string>
+    <string name="forward_all">マージ転送</string>
+    <string name="my_appendage">私の添付ファイル</string>
+    <string name="my_collection">私のコレクション</string>
+    <string name="my_course">私の講義</string>
+    <string name="settings">システム設定</string>
+    <string name="realNameAuthentication">実名認証</string>
+    <string name="no_ban">思わず言ってしまう</string>
+    <string name="ban_30m">禁句30分</string>
+    <string name="ban_1h">禁句1時間</string>
+    <string name="ban_1d">禁句1日</string>
+    <string name="ban_3d">禁句3日間</string>
+    <string name="ban_1w">禁句1週間</string>
+    <string name="ban_half_m">半月の禁句</string>
+    <string name="forward">転送</string>
+    <string name="save_emoticon">表情をつくる</string>
+    <string name="multi_select">多選</string>
+    <string name="start_record">録画を開始する</string>
+    <string name="skin_blue">空が青い</string>
+    <string name="apply_now">すぐに使用する</string>
+    <string name="screen_record">録屏</string>
+    <string name="filter_normal">正常</string>
+    <string name="filter_beauty">美化</string>
+    <string name="filter_romance">ロマンチックな</string>
+    <string name="filter_warm">常夜灯</string>
+    <string name="filter_tender">温和な</string>
+    <string name="filter_sunrise">日の出</string>
+    <string name="filter_sunset">日没</string>
+    <string name="filter_cool">冷たく</string>
+    <string name="filter_evergreen">常緑</string>
+    <string name="danmu">弾幕</string>
+    <string name="hint_send_message">みんなに何か話す</string>
+    <string name="star">注目</string>
+    <string name="staff">员</string>
+    <string name="edit_live">直送室</string>
+    <string name="set_manager">管理に設定する</string>
+    <string name="ban">禁言</string>
+    <string name="kick_room">部屋を蹴飛ばす</string>
+    <string name="baidu_map">百度地図</string>
+    <string name="amap">高徳地図</string>
+    <string name="google_map">googleマップ</string>
+    <string name="set_red_packet_key">パスワードをセットする:</string>
+    <string name="hint_example_red_packet_key">ボスが大祝儀を出す</string>
+    <string name="hint_red_packet_key">小友はパスワードを返してお金を奪う必要があります</string>
+    <string name="red_packet_count">寸志の個数</string>
+    <string name="individual">つ</string>
+    <string name="total_money">総額</string>
+    <string name="input_money">金額を入力する</string>
+    <string name="btn_send_red_packet">寸志に金を突っ込む</string>
+    <string name="hint_money_all_same">仲間が同じ金額を受け取る</string>
+    <string name="fill_user_data">資料に記入する</string>
+    <string name="under_review">審査中</string>
+    <string name="hint_use_other_browser">プレビューできない場合は、外付けブラウザでプレビューする</string>
+    <string name="qq_browser">QQブラウザ</string>
+    <string name="uc_browser">UCブラウザ</string>
+    <string name="opera_browser">オーブンブラウザー</string>
+    <string name="local_browser">ローカルブラウザー</string>
+    <string name="all_member">全員のメンバー。</string>
+    <string name="invite_friend">親友を招く</string>
+    <string name="add_black_list">ブラックリストに加わる</string>
+    <string name="remove_black_list">ブラックリストから外す</string>
+    <string name="thoroughly_delete">徹底的に削除する</string>
+    <string name="latest_comments">最新レビュー</string>
+    <string name="king_of_luck">運の王</string>
+    <string name="money">金額</string>
+    <string name="save_image">写真を保存する</string>
+    <string name="scan_qr_code">図中のqrコードを識別する</string>
+    <string name="reconnect">重さえ</string>
+    <string name="tip_receive_new_message">メッセージを受信しました</string>
+    <string name="mute">静粛</string>
+    <string name="hands_free">免提</string>
+    <string name="tip_wait_friend">相手の誘いを待っている</string>
+    <string name="share_wechat">微信の友達にシェアする</string>
+    <string name="share_moments">友だちの動きを共有する</string>
+    <string name="btn_download">ダウンロード()</string>
+    <string name="example_downloading">下載中…(kb 987.1 / 9.5 mb)</string>
+    <string name="btn_upload">アップロード(0)</string>
+    <string name="tip_quick_send">あなたが送るかもしれない写真:</string>
+    <string name="example_will_send_message">あなたは発のニュースは友人2位:</string>
+    <string name="example_name_list" translatable="false">[mers、rose]</string>
+    <string name="example_system_message_tip">システムメッセージ:</string>
+    <string name="example_message_content">世の道は鳥の道に比し、人情は魚の蛮行に比す。</string>
+    <string name="tip_no_status">Taサイン書き忘れたみたい…</string>
+    <string name="tip_look_early_message">もっと早いニュースを見て…</string>
+    <string name="example_file_name_tip" translatable="false">ファイル名:hahahafgdfgdgfdg.jpg</string>
+    <string name="example_file_path_tip" translatable="false">ストレージパス:sd/sk</string>
+    <string name="example_file_size_tip" translatable="false">サイズ:12.9Mb</string>
+    <string name="loading">ロード中…</string>
+    <string name="tip_network_error">ネットワークに力が入らないので、ネットワークの設定をチェックしてください。</string>
+    <string name="tip_course_name">コース名:</string>
+    <string name="tip_public_time">リリース時期:</string>
+    <string name="default_gift_comment">「老鉄」を送る</string>
+    <string name="connecting">接続中…</string>
+    <string name="example_tag_name">ラベル(99)</string>
+    <string name="in_live">生放送中…</string>
+    <string name="tip_screen_identity">id表示:</string>
+    <string name="tip_reason_invite_friends">グループマスターは\'グループチャット招待確認\'を有効にして、友達をグループに招待して、グループマスターに原因を説明することができます。</string>
+    <string name="invite_you">あなたを招待します....</string>
+    <string name="tip_calling">コール…</string>
+    <string name="hint_lucky_red_packet">友だちが受け取る金額はランダム</string>
+    <string name="merger_failed">合併に失敗する</string>
+    <string name="tip_copy_success">当該ファイルのリンクを貼り付け版にコピーして,ページのプレビューに行く</string>
+    <string name="report_success">通報が成功する</string>
+    <string name="tip_voice_record_error">録音ミス!</string>
+    <string name="tip_record_time_too_short">録音時間が短すぎる!</string>
+    <string name="delete_success">削除成功</string>
+    <string name="sending_course">レッスン配信中</string>
+    <string name="tip_course_send_success">このコースウェアはすべて発送に成功しました</string>
+    <string name="sending_message_index_place_holder">%d番目のメッセージを送信中</string>
+    <string name="downloading_cource_index_place_holder">d番目のレッスンをダウンロードしています</string>
+    <string name="tip_disabled_send_cource">このグループは一般メンバーの講義送信機能を停止している</string>
+    <string name="unknown">未知</string>
+    <string name="tip_burn_message">先方はあなたのこの条を見てすぐ焚きますメッセージ</string>
+    <string name="my_iphone">私のiPhoneは</string>
+    <string name="my_windows">私のWindowsコンピュータは</string>
+    <string name="my_mac">私のMacは</string>
+    <string name="my_web">私のWebページ</string>
+    <string name="msg_call_end">[通話終了]</string>
+    <string name="msg_call_cancel">[通話キャンセル]</string>
+    <string name="msg_voice_meeting">[音声会議]</string>
+    <string name="msg_video_meeting">[テレビ会議]</string>
+    <string name="msg_chat_history">[チャット履歴]</string>
+    <string name="be_pull_black_place_holder">%sシールドされています</string>
+    <string name="pull_black_place_holder">%sシールド済み</string>
+    <string name="be_delete_place_holder">%sによって削除されました</string>
+    <string name="delete_place_holder">%sを削除済み</string>
+    <string name="tip_last_item">私には限界があります</string>
+    <string name="unrecognized">識別できない</string>
+    <string name="connect_by_hand">手動接続するかどうか</string>
+    <string name="tip_not_support_emoji">表情入力に対応していない</string>
+    <string name="tip_chinese_english_number">入力は中国語、英語、数字のみ</string>
+    <string name="title_notification">通知権限を開く</string>
+    <string name="content_notification">メッセージ通知をいち早くキャッチする</string>
+    <string name="permission_photo">写真を撮る</string>
+    <string name="permission_location">測位</string>
+    <string name="permission_microphone">マイク</string>
+    <string name="permission_phone_status">携帯電話の状態</string>
+    <string name="permission_storage">メモリー</string>
+    <string name="tip_reject_permission_place_holder">あなたは%sの権限の要求を拒否して、手動で開くかどうか</string>
+    <string name="tip_permission_reboot_place_holder">%sの権限要求は拒否されたのでIMをログアウトしてから再度入ってください</string>
+    <string name="tip_phone_number_empty_request_verification_code">携帯電話番号は空、グラフィック認証コードは更新不可</string>
+    <string name="tip_phone_number_verification_code_empty">携帯電話番号や図形の認証コードは空にしない</string>
+    <string name="tip_password_no_change">新しいパスワードは元のパスワードと一致しない</string>
+    <string name="tip_verification_load_failed">グラフィックスcaptchaの読み込みに失敗したので、リフレッシュしてください</string>
+    <string name="verification_code_send_success">captcha送信成功</string>
+    <string name="verification_code_send_failed">captcha送信失敗</string>
+    <string name="settings_server_address">サーバーを設置する</string>
+    <string name="tip_phone_number_empty">携帯電話の番号を入力してください</string>
+    <string name="tip_phone_number_wrong">正しい携帯電話のフォーマットを入力してください</string>
+    <string name="tip_password_empty">パスワードを入力してください</string>
+    <string name="tip_password_too_short">暗号長は少なくとも6ビット</string>
+    <string name="tip_verification_code_empty">グラフィックコードを入力してください</string>
+    <string name="tip_verification_code_load_failed">図形のcaptchaをロードして失敗して、もう一度試してください!</string>
+    <string name="tip_verification_code_wrong">グラフィックスコードエラー</string>
+    <string name="tip_mention_you">あなたのことも言いました</string>
+    <string name="select_from_contacts">アドレス帳から選択する</string>
+    <string name="tip_select_at_least_one">タブまたは連絡先を少なくとも1つ選択してください</string>
+    <string name="tip_has_voice_no_public">音声を録音して、リリースしないことを確認しましたか?</string>
+    <string name="tip_private_cannot_notify">見える範囲でプライベートを選択する場合、リマインダー机能は利用できません。</string>
+    <string name="tip_private_cannot_use_this">視認範囲がプライベートな場合、この机能は使用できません。</string>
+    <string name="tip_has_video_no_public">動画を選択し、配信しないことを確認しましたか?</string>
+    <string name="tip_no_data">仮根拠</string>
+    <string name="tip_change_job_self">自分の職位を修正できるのは本人だけだ</string>
+    <string name="change_job">職位を改める</string>
+    <string name="tip_change_public_owner">公告を修正できるのは設立者だけです</string>
+    <string name="public_news">新しい公告を出す</string>
+    <string name="status_online">(オンライン)</string>
+    <string name="status_offline">(オフライン)</string>
+    <string name="public_number">公衆番号</string>
+    <string name="reply_record">返事メモ</string>
+    <string name="edit_tag">ラベルを設定する</string>
+    <string name="tag_member">タグメンバー</string>
+    <string name="tip_select_at_lease_one_contacts">連絡先を少なくとも1人選んでください</string>
+    <string name="tip_save_tag">ラベルとして保存しておけば、次からそのまま使える</string>
+    <string name="ignore">無視する</string>
+    <string name="save_tag">ラベルとして保存する</string>
+    <string name="people">人</string>
+    <string name="tip_not_member">グループのメンバーでないと、グループ情報を見ることができない</string>
+    <string name="tip_xmpp_connecting">XMPPが接続中</string>
+    <string name="tip_xmpp_offline">XMPPが切れたのでネットワークをチェックしてください</string>
+    <string name="tip_group_name_exists">群名は存在した!</string>
+    <string name="tip_cannot_remove_self">素早く群れを作り、自分を取り除くことはできない</string>
+    <string name="tip_quickly_group_cannot_remove">素早く群を作り、除去はできない</string>
+    <string name="tip_create_group_at_lease_one_friend">友達を1人選ばないとグループが作れない</string>
+    <string name="tip_group_name_too_long">グループ名は20文字まで</string>
+    <string name="tip_group_description_too_long">グループ記述は100文字まで</string>
+    <string name="tip_auto_location_failed">自動位置特定に失敗し</string>
+    <string name="tip_no_baidu_map">あなたはまだ百度地図をインストールしていない</string>
+    <string name="tip_no_amap">あなたは高徳地図をまだインストールしていない</string>
+    <string name="tip_no_google_map">あなたはgoogleマップをまだインストールしていない</string>
+    <string name="tip_places_around_failed">周辺アドレスの取得に失敗し</string>
+    <string name="tip_no_camera_permission">カメラ権限が検知されず録画できない</string>
+    <string name="default_place_holder">デフォルト:%s</string>
+    <string name="tip_reboot_for_config">サーバーを切り替えて成功して、まもなく再起動して、配置を発効します!</string>
+    <string name="tip_change_skin_success">肌の切り替え成功</string>
+    <string name="tip_change_language_success">言葉の切り替え成功!閉まります!再起動して有効に!</string>
+    <string name="tip_change_keeplive_success">切り替え保活成功!閉まります!再起動して有効に!</string>
+    <string name="tip_red_packet_too_much">ご祝儀の数は100個まで</string>
+    <string name="tip_money_too_less">一人当たり少なくとも0.01元を受け取ることができますよ!</string>
+    <string name="red_packet_receipt_place_holder"  formatted="false">既に%d/%d個を受け取り,合計%s/%s元</string>
+    <string name="red_packet_receipt_suffix_all">、受け取り終えました!</string>
+    <string name="red_packet_receipt_suffix_over">期限切れです!</string>
+    <string name="red_packet_receipt_suffix_remain">,受け取り終わっていません!</string>
+    <string name="tip_no_phone_number_get_v_code">携帯電話番号を入力してグラフィックコードを取得してください</string>
+    <string name="tip_select_money">チャージ金額を選択してください</string>
+    <string name="tip_no_wechat">wechatの最新バージョンをインストールしていない場合は、wechatのバージョンをインストールまたはアップグレードしてください。</string>
+    <string name="tip_not_support">開放しない</string>
+    <string name="msg_shake">[突いてみろ]</string>
+    <string name="tip_forwarding_quit">現在転送中ですが、ログアウトしますか?</string>
+    <string name="msg_red_packet">[付け届け]</string>
+    <string name="msg_video_voice">[音声・ビデオ通話]</string>
+    <string name="chat_history_place_holder" formatted="false">%sと%sのチャット記録</string>
+    <string name="you">あなた</string>
+    <string name="be_pulled_black">遮断される</string>
+    <string name="tip_remote_in_black">相手はすでにあなたにブロックされて、メッセージをTaに送ることができません</string>
+    <string name="tip_create_cource_success">コースウェア作成成功</string>
+    <string name="tip_forward_ban">あなたはこのグループで禁止され、転送されません。</string>
+    <string name="tip_forward_kick">グループから追放され転送が禁止されました</string>
+    <string name="tip_forward_disbanded">グループは解散し、転送は禁止されている</string>
+    <string name="title_my_collection_emoji">私が収集した表情は</string>
+    <string name="edit">編集</string>
+    <string name="tip_card_disable_privately_chat">現在のグループは一般メンバーの私信を禁止し、名刺メッセージを送信することを許可しない</string>
+    <string name="tip_been_kick">あなたはグループから追い出されました</string>
+    <string name="tip_disbanded">その群は既に群主によって解散させられた</string>
+    <string name="group_chat_history">グループチャットのチャット記録</string>
+    <string name="new_message_count_place_holder">%dの新メッセージ</string>
+    <string name="tip_program_error">このグループは既に存在しない!</string>
+    <string name="tip_group_been_disbanded">グループは解散しました</string>
+    <string name="tip_been_kick_self">私はグループから追い出されました</string>
+    <string name="tip_member_disable_privately_chat">現在のグループは、一般メンバーのプライベートなメッセージを禁止し、他のグループメンバーの情報を見ることを許可しない。</string>
+    <string name="tip_select_at_lease_one_member">少なくとも1人のメンバーを選んでください</string>
+    <string name="tip_send_reason_success">グループオーナーにメッセージを送ったので、グループオーナーの確認を待ってください。</string>
+    <string name="invite_success">招待に成功する</string>
+    <string name="is_open">すでに開いている</string>
+    <string name="is_close">閉鎖された</string>
+    <string name="remove_success">削除成功</string>
+    <string name="remove_failed">削除失敗</string>
+    <string name="group_member">グループメンバー</string>
+    <string name="tip_cannot_remove_owner">グループマスターは削除できません</string>
+    <string name="tip_cannot_remove_manager">他の管理者を削除することはできません</string>
+    <string name="tip_cannot_ban_owner">群主を非難してはならない</string>
+    <string name="tip_cannot_ban_manager">管理人は禁句</string>
+    <string name="tip_set_group_owner_place_holder">%sを新しいグループオーナーに選択すると、あなたは自動的にグループオーナーのアイデンティティを放棄します。</string>
+    <string name="invite_detail">招待の詳細</string>
+    <string name="tip_invite_count_place_holder">グループチャットに友達%dを誘う</string>
+    <string name="wanna_in">グループへの参加を申し込む</string>
+    <string name="has_confirm">確認した</string>
+    <string name="to_confirm">確認に行く</string>
+    <string name="tip_get_detail_error">詳細の取得に失敗し、現在の画面を終了</string>
+    <string name="tip_cannot_remove_bulletin">グループオーナーまたは管理者のみが公告を削除することができる</string>
+    <string name="group_bulletin">群公告</string>
+    <string name="btn_public">発表</string>
+    <string name="btn_public_bulletin">公告を出す</string>
+    <string name="tip_cannot_public_bulletin">グループオーナーまたは管理者のみが公告を発行できる</string>
+    <string name="total_count_place_holder">総勢%d人</string>
+    <string name="tip_confirm_clean_history">その人とのチャットの消去を確認する?</string>
+    <string name="tip_disband">現在のグループの解散を確認する?</string>
+    <string name="tip_exit">現在のグループからログアウトすることを確認する?</string>
+    <string name="tip_disable_invite">グループマスターは一般メンバーの友だち招待機能をオフにしている</string>
+    <string name="tip_group_message_failed">グループ情報の取得失敗</string>
+    <string name="tip_became_manager">グループマスターによって管理者に設定されているので、現在のページからログアウトして再アクセスする必要があります。</string>
+    <string name="tip_be_cancel_manager">グループマスターに管理者をキャンセルされたので、現在のページからログアウトして再アクセスする必要があります。</string>
+    <string name="tip_description_too_long">100文字を超えない</string>
+    <string name="tip_name_too_long">20文字を超えてはいけない</string>
+    <string name="edit_success">修正に成功する</string>
+    <string name="edit_failed">失敗を修正する</string>
+    <string name="tip_cannot_change_avatar">グループと管理者のみがグループアイコンを修正できる</string>
+    <string name="tip_cannot_change_name">グループと管理者は、グループ名を変更することができる</string>
+    <string name="tip_cannot_change_description">グループと管理者は、グループ記述を修正することができる</string>
+    <string name="prefix_read_time">読書時間:</string>
+    <string name="read_list">既読リスト</string>
+    <string name="tip_cannot_set_manager_self">自分を管理人に指定できない</string>
+    <string name="tip_is_manager">この人はもう管理人だ</string>
+    <string name="tip_status_burn">現在の状態は閲覧后即焚きで、相手はあなたの送ったメッセージを読み終わった后に直ちに破棄します(文字、音声、写真、ビデオの4種類のメッセージタイプをサポートします)。また、スクリーンショットを撮ることはできません。</string>
+    <string name="tip_friend_removed">友人は削除されました</string>
+    <string name="tip_edit_failed">失敗を修正する</string>
+    <string name="tip_create_tag_failed_place_holder">%sタグの作成失敗</string>
+    <string name="change_remark">備考名を改める</string>
+    <string name="remark">注記名</string>
+    <string name="tip_input_remark">備考名を入力してください</string>
+    <string name="tip_change_remark_failed">備考名の修正失敗</string>
+    <string name="tip_file_too_much">選択できるファイルは9つまで</string>
+    <string name="tip_cannot_upload">グループマスターは一般メンバーのファイルアップロード機能をオフにしました</string>
+    <string name="tip_cannot_remove_file">このファイルはあなたの権限では操作できません</string>
+    <string name="tip_remove_friend_failed">友だち削除失敗</string>
+    <string name="tip_hello_failed">挨拶に失敗する</string>
+    <string name="tip_put_black_failed">ブラックリスト作成の失敗</string>
+    <string name="tip_remove_black_failed">ブラックリスト削除失敗</string>
+    <string name="tip_not_like_public_number">この公式アカウントに注目していない</string>
+    <string name="change_remark_failed">備考名の修正失敗</string>
+    <string name="creating_qr_code">qrコードを生成しています…</string>
+    <string name="tip_saved_qr_code">qrコードはアルバムに保存済み</string>
+    <string name="decode_failed">デコード失敗</string>
+    <string name="tip_select_photo">1枚の写真を選ぶ</string>
+    <string name="image_not_found">絵が存在しない</string>
+    <string name="tip_burn_image_cannot_save">写真は保存不可</string>
+    <string name="tip_crash">申し訳ありませんが、プログラムに異常が生じており、まもなく再起動します。</string>
+    <string name="tip_private_location">ユーザ未公開位置</string>
+    <string name="tip_save_gif_success">Gif画像保存成功</string>
+    <string name="tip_save_gif_failed">Gif画像の保存失敗</string>
+    <string name="tip_save_image_success">画像保存成功</string>
+    <string name="tip_save_image_failed">画像保存失敗</string>
+    <string name="video_normal">原図</string>
+    <string name="video_ascii">文字の絵</string>
+    <string name="video_beauty">美顔</string>
+    <string name="video_yello">夕暮れ</string>
+    <string name="video_gray">灰色の</string>
+    <string name="video_vague">曖昧さ</string>
+    <string name="video_ripple">波纹</string>
+    <string name="video_exposure">白露光</string>
+    <string name="video_relief">浮屠</string>
+    <string name="tip_no_qq_browser">QQブラウザは未インストール</string>
+    <string name="tip_no_uc_browser">UCブラウザは未インストール</string>
+    <string name="tip_no_opera_browser">opanブラウザ未インストール</string>
+    <string name="hint_all_ban">全員禁句中</string>
+    <string name="save_only_image">画像メッセージのみ保存</string>
+    <string name="save">保存</string>
+    <string name="status_read">すでに読み</string>
+    <string name="status_send">伝達</string>
+    <string name="tip_invite_voice_meeting">音声会議にご招待いたします</string>
+    <string name="tip_invite_video_meeting">あなたをテレビ会議に招待する</string>
+    <string name="tip_click_to_read">Tをクリックして見る</string>
+    <string name="tip_cannot_copy_burn">閲覧后焚き火メッセージはコピー不可</string>
+    <string name="tip_cannot_save_burn_image">写真を読んですぐ焚きます表情を保存してはいけません</string>
+    <string name="tip_cannot_collect_burn">閲覧后即焚報は収蔵不可</string>
+    <string name="tip_emoji_empty">付け加えることのない表情</string>
+    <string name="report_reason_1">グループのメンバーに賭博行為があった</string>
+    <string name="report_reason_2">グループのメンバーに詐欺行為があった</string>
+    <string name="report_reason_3">グループのメンバーが不適切な内容を投稿して私に迷惑をかけた</string>
+    <string name="report_reason_4">グループメンバーによるデマの流布賭博行為</string>
+    <string name="report_reason_5">不適切な投稿は私に迷惑をかける</string>
+    <string name="report_reason_6">ポルノ投稿は私に迷惑をかけました</string>
+    <string name="report_reason_7">違法な投稿は私に迷惑をかけます</string>
+    <string name="report_reason_8">ギャンブルの投稿は私に迷惑をかけます</string>
+    <string name="report_reason_9">政治的なデマを流して私に迷惑をかけました</string>
+    <string name="report_reason_10">暴力的で血なまぐさい内容の投稿は私に迷惑をかけます</string>
+    <string name="report_reason_11">私に迷惑をかけています</string>
+    <string name="report_reason_12">詐欺詐欺行為がある</string>
+    <string name="report_reason_13">このアカウントは盗まれる可能性がある</string>
+    <string name="report_reason_14">権利侵害行為がある</string>
+    <string name="report_reason_15">模倣品の情報発信</string>
+    <string name="select_file_count_place_holder">選択できるのはせいぜい%dファイル</string>
+    <string name="suffix_share_content">インスタントメッセンジャーが</string>
+    <string name="share_succes">成功を分かち合う</string>
+    <string name="share_failed">失敗を分かち合う</string>
+    <string name="share_cancel">シェアキャンセル</string>
+    <string name="recharge_result">チャージ結果</string>
+    <string name="recharge_cancel">チャージキャンセル</string>
+    <string name="recharge_failed">チャージに失敗する</string>
+    <string name="tip_receive_image">新しい写真が届きました</string>
+    <string name="tip_receive_voice">新しい音声が届きました</string>
+    <string name="tip_receive_address">アドレスを受け取った</string>
+    <string name="tip_receive_emoji">アニメーションのスタンプを受け取り</string>
+    <string name="tip_receive_video">新しいビデオを受け取る</string>
+    <string name="tip_receive_file">新しい書類を受け取る</string>
+    <string name="tip_receive_card">名刺を1枚もらう</string>
+    <string name="tip_receive_tip">システムメッセージ</string>
+    <string name="suffix_invite_you_voice">音声通話をご招待いたします</string>
+    <string name="suffix_invite_you_video">ビデオ通話をご招待します</string>
+    <string name="tip_other_message">その他のニュース</string>
+    <string name="new_message">新しいニュース</string>
+    <string name="tip_new_message">あなたは1つの新しい情報があります..</string>
+    <string name="tip_kick_room">部屋から追い出されて</string>
+    <string name="tip_cannot_multi_select_burn">閲覧後焚き火タイプのメッセージは複数回答を許さない</string>
+    <string name="be_cancel_ban_place_holder" formatted="false">%s は既に%sによって禁言を取り消された</string>
+    <string name="tip_group_enable_verify">群主は進群検証を開始しました</string>
+    <string name="tip_group_disable_verify">群主閉閉進群検証</string>
+    <string name="tip_invite_need_verify_place_holder"  formatted="false">「%s」友だち%dをグループチャットに誘って確認したい</string>
+    <string name="tip_need_verify_place_holder">グループに参加して確認する</string>
+    <string name="tip_owner_enable_read">グループマスターはメッセージの既読者数を表示する機能をオンにした</string>
+    <string name="tip_owner_disable_read">グループマスターはメッセージ既読者数表示機能をオフにした</string>
+    <string name="tip_owner_private">グループは自分のグループをパーソナルグループに修正する</string>
+    <string name="tip_owner_public">群はその群を公開群に修正する</string>
+    <string name="tip_owner_enable_member">グループオーナーはグループメンバーを見る機能をオンにしました</string>
+    <string name="tip_owner_disable_member">グループオーナーはグループメンバーを見る機能をオフにしました</string>
+    <string name="tip_owner_enable_chat_privately">グループオーナーがグループレター機能をオンにした</string>
+    <string name="tip_owner_disable_chat_privately">グループオーナーがグループレター機能をオフにした</string>
+    <string name="tip_now_ban_all">全体禁句が開かれた</string>
+    <string name="tip_now_disable_ban_all">全体禁句を閉ざした</string>
+    <string name="tip_owner_enable_invite">グループマスターは一般メンバーへの招待機能をオンにした</string>
+    <string name="tip_owner_disable_invite">グループマスターは一般メンバーへの招待機能をオフにした</string>
+    <string name="tip_owner_enable_upload">グループオーナーが一般メンバーのアップロードを始めました</string>
+    <string name="tip_owner_disable_upload">グループオーナーは一般メンバーのアップロードを停止しました</string>
+    <string name="tip_owner_enable_meeting">グループオーナーは一般メンバーによる会議機能をオンにした</string>
+    <string name="tip_owner_disable_meeting">グループオーナーは一般メンバーの会議開始機能をオフにしました</string>
+    <string name="tip_owner_enable_cource">グループマスターが一般メンバーにレッスンを送る機能をオンにした</string>
+    <string name="tip_owner_disable_cource">グループマスターは一般メンバーのレッスン送信機能をオフにしました</string>
+    <string name="tip_new_group_owner_place_holder">「%s」が新リーダーに</string>
+    <string name="tip_been_kick_place_holder">あなたは%sにグループから追い出されました</string>
+    <string name="tip_been_cancel_ban_place_holder">すでに%sによって禁言を取り消された</string>
+    <string name="self">自分が</string>
+    <string name="tip_receive_red_packet_place_holder"  formatted="false">%sは%sのご祝儀を受け取った</string>
+    <string name="tip_red_back">寸志は既に期限が切れており,残額は既に小銭を返してある</string>
+    <string name="system_public_number_welcome">早速チャットサービスをご利用ください。</string>
+    <string name="intent_wrapper_reason">コアサービスの継続的な運用</string>
+    <string name="intent_wrapper_need">必要</string>
+    <string name="intent_wrapper_need_open">開ける必要がある</string>
+    <string name="intent_wrapper_need_close">閉鎖する必要がある</string>
+    <string name="intent_wrapper_need_allow">許可が必要だ</string>
+    <string name="intent_wrapper_need_prohibited">禁止が必要だ</string>
+    <string name="intent_wrapper_switch_turn_on">対応するスイッチがオンになる</string>
+    <string name="intent_wrapper_switch_turn_off">対応スイッチオフ</string>
+    <string name="intent_wrapper_1">の自働起働。</string>
+    <string name="intent_wrapper_2">「ok」をクリックしてください。表示される「自己啓発管理」で、</string>
+    <string name="intent_wrapper_3">ホワイトリストのクリーンアップに参加する</string>
+    <string name="intent_wrapper_4">「ok」をクリックしてください。表示される「自己啓発管理」で、</string>
+    <string name="intent_wrapper_5">という神隠しモード。</string>
+    <string name="intent_wrapper_6">「ok」をクリックしてください</string>
+    <string name="intent_wrapper_7">神隠しモードの設定で「無制限」を選択し、「位置特定を許可」を選択します。</string>
+    <string name="intent_wrapper_8">画面が閉じている間も動作を続ける</string>
+    <string name="intent_wrapper_9">「ok」をクリックして、表示される「スマートマネージャ」から「メモリ」をクリックして、「アプリケーションの自己起動」タブを選択してください。</string>
+    <string name="intent_wrapper_10">画面が閉じている間も動作を続ける</string>
+    <string name="intent_wrapper_11">「ok」をクリックして表示される「バッテリー」の画面で「監視していないアプリ」-&gt;「アプリの追加」にチェックを入れてください。</string>
+    <string name="intent_wrapper_12">「完了」をクリックします。</string>
+    <string name="intent_wrapper_13">バックグラウンドを維持する</string>
+    <string name="intent_wrapper_14">「ok」をクリックすると、表示されるアプリケーション情報画面で「バックグラウンド管理」を「バックグラウンド維持」に変更します。</string>
+    <string name="intent_wrapper_15">スタンバイ時に動作を維持する</string>
+    <string name="intent_wrapper_16">「ok」をクリックしてください。表示される「待機消費電力管理」で、</string>
+    <string name="intent_wrapper_17">セルフスタート・ホワイトリストに参加する</string>
+    <string name="intent_wrapper_18">「ok」をクリックしてください。表示される「自己起動管理」で、</string>
+    <string name="intent_wrapper_19">自己起動します</string>
+    <string name="intent_wrapper_20">どうぞ「確定」をクリックしてください、ポップアップの「クールな執事」の中で、「ソフトウェア管理」-&gt;「自己起働管理」を見つけて、チェックを取り消して、</string>
+    <string name="intent_wrapper_21">バックグラウンドで高消費電力で動作する</string>
+    <string name="intent_wrapper_22">「ok」をクリックしてください。表示される「バックグラウンド高消費電力」で、</string>
+    <string name="intent_wrapper_23">自己起動とバックグラウンド実行</string>
+    <string name="intent_wrapper_24">「ok」をクリックしてください。表示される「システム管理」で、「アプリケーション管理」-&gt;「アプリケーション管理」-&gt;「グリーンバック」-&gt;「ホワイトリストのクリーンアップ」をそれぞれ見つけてください。</string>
+    <string name="intent_wrapper_25">自動的に掃除される</string>
+    <string name="intent_wrapper_26">「ok」をクリックしてください。表示される「アプリケーション保護」で、</string>
+    <string name="intent_wrapper_27">バックグラウンド自啓、バックグラウンドGPS、バックグラウンド動作。</string>
+    <string name="intent_wrapper_28">「確定」をクリックしてください、ポップアップの「バックグラウンド管理」の中で、それぞれ探し出して「バックグラウンド自啓」、「バックグラウンドGPS」と「バックグラウンド実行」、将</string>
+    <string name="intent_wrapper_29">バックグラウンドの消費電力を最適化しています</string>
+    <string name="intent_wrapper_30">「ok」をクリックしてください。表示される「バックグラウンドの消費電力の最適化」で、</string>
+    <string name="intent_wrapper_31">という状態を「許可済み」に変える。</string>
+    <string name="intent_wrapper_32">ホワイトリストに追加します。</string>
+
+    <string name="live_demo">実演を中継する。</string>
+    <string name="trill_demo">ドローン・デモ</string>
+    <string name="trill_share">分かち合い</string>
+    <string name="av_no_float">あなたは現在開いていないで、しばらくこの机能を使用することができません浮遊窓を設定して開くかどうか</string>
+    <string name="av_hand_hang">先方は通話を終了しましたが、現在のシステムがAndroid 5.0であることを検知しました。</string>
+    <string name="stop">停止</string>
+    <string name="phone_contact">アドレス帳連絡先</string>
+    <string name="batch_add">バッチ添加</string>
+    <string name="add_to">添加</string>
+    <string name="added">追加済み</string>
+    <string name="add_failed">失敗を追加する</string>
+    <string name="is_invite">新しい連絡先を携帯電話の連絡先グループに招待しますか?</string>
+    <string name="is_create">私の携帯電話の連絡先グループを作るかどうか</string>
+    <string name="my_phone_contact_group">私の携帯電話の連絡先グループは</string>
+    <string name="is_empty_all_chat">すべてのチャットを空にする</string>
+    <string name="find_friend_chat_history_place_holder">%sとのチャットを検索する</string>
+    <string name="find_room_chat_history_place_holder">%s内のチャットを検索する</string>
+    <string name="record_video">ビデオを録画する</string>
+
+    <string name="new_contact">新しい連絡先</string>
+
+    <string name="public_a_file">文書を発行する</string>
+    <string name="circle_select_file">ファイルを添付する</string>
+    <string name="tip_has_file_no_public">ファイルを選択して、発行しないことを確認しましたか?</string>
+    <string name="btn_no_auth_code">captchaが届かない?</string>
+
+    <string name="send_course_wait">前のコースが発送されるまで待ってください。</string>
+    <string name="added_black">すでにブラックリストに載っている</string>
+    <string name="select_meeting_type">会議のタイプを選ぶ</string>
+    <string name="chat_video_conference">テレビ会議</string>
+    <string name="must_select_avatar_can_register">アイコンを選択しなければ登録できない</string>
+
+    <string name="btn_change_pay_password">支払いパスワードを変更する</string>
+    <string name="btn_set_pay_password">支払いパスワードを設定する</string>
+    <string name="tip_change_pay_password_input_old">支払いパスワードを入力して身元を確認してください</string>
+    <string name="tip_change_pay_password_input_new">支払い認証用に支払いパスワードを設定してください</string>
+    <string name="tip_change_pay_password_input_twice">支払い番号を再度ご確認ください</string>
+    <string name="tip_change_pay_password_input_incorrect">パスワードの入力が2回一致しない</string>
+    <string name="title_input_pay_password">支払いパスワードを入力してください</string>
+    <string name="rmb_symbol" translatable="false">￥</string>
+    <string name="tip_no_user_id">ログインが異常なので再ログインしてください</string>
+    <string name="tip_change_pay_password_success">支払いパスワードの変更に成功</string>
+    <string name="tip_change_pay_password_failed">支払いパスワードの変更に失敗、内部異常</string>
+    <string name="tip_wrong_pay_password">パスワードがまちがっている</string>
+    <string name="tip_no_pay_password">先支給のパスワードを設置してください</string>
+    <string name="tip_read_contacts_failed">携帯連絡先の読み込みに失敗</string>
+
+    <string name="msg_card">[名刺]</string>
+    <string name="msg_system">[システムメッセージ]</string>
+    <string name="msg_image_text">[画像]</string>
+    <string name="msg_link">[リンク]</string>
+    <string name="download_error">ダウンロードに失敗する</string>
+
+    <string name="tip_shut_all">この群はすでに全体禁句を開いている</string>
+    <string name="tip_server_error">内部サーバーエラー</string>
+
+    <string name="sure_add_friend_blacklist">その友人をブラックリストに載せることは確実か?</string>
+    <string name="delete_friend">友だちを削除する</string>
+    <string name="sure_delete_friend">削除確定?</string>
+    <string name="sure_remove_member_for_group">%sをグループから外すことを決定する?</string>
+    <string name="sure_exit_account">ログアウト后に履歴データが削除されることはありませんので、次回のログインでも本アカウントをご利用いただけます。</string>
+    <string name="password_error">パスワードの誤り</string>
+    <string name="apply_to_add_me_as_a_friend">私の追加を申し込む</string>
+    <string name="agree_with_my_plus_friend_request">私の友人登録の申し出に応じてくれました</string>
+    <string name="added_me_as_a_friend">私を友達に加えました</string>
+
+    <string name="tip_send_video_limit">最大で%d個送る</string>
+    <string name="btn_send_video_place_holder" formatted="false">完成(%d/%d)</string>
+    <string name="tip_disable_multi_login">サービスを開始していません</string>
+
+    <string name="set_remark_for_room_member">グループメンバーへの備考</string>
+    <string name="can_not_remark_self">自分に言い聞かせてはいけない</string>
+    <string name="select_county_area">国・地域を選ぶ</string>
+    <string name="tip_get_config_failed">サーバーへの接続に失敗した場合は後ほどお試しください</string>
+
+    <string name="msg_word">[テキスト]</string>
+    <string name="no_executable_intent">実行不能トランジション</string>
+    <string name="title_replay_place_holder">速回復:%s</string>
+    <string name="hint_replay">内容</string>
+    <string name="tip_replay_empty">返信は空欄にしてはいけない</string>
+
+    <string name="skin_light_green">うすみどり</string>
+    <string name="skin_sea_blue">海が青い</string>
+    <string name="skin_elegant_black">上品黒</string>
+    <string name="skin_chinese_red">チャイナレッド</string>
+    <string name="skin_viridian_green">コバルトグリーン</string>
+    <string name="skin_perceptual_pink">感受性パウダー</string>
+    <string name="skin_amber_yellow">こはく黄</string>
+    <string name="skin_light_coffe">淡いカレー色</string>
+    <string name="skin_powder_azure">ピンクスカイ</string>
+    <string name="skin_leaf_green">ピンクグリーン</string>
+    <string name="skin_business_blue">ビジネスブルー</string>
+    <string name="skin_blue_gray">ブルーグレー</string>
+    <string name="skin_burnt_umber">濃い茶色</string>
+    <string name="skin_orange">オレンジ色</string>
+    <string name="skin_new">新しい肌</string>
+
+    <string name="square">広場</string>
+    <string name="life_circle">生活圏</string>
+    <string name="live_chat">ビデオ中継</string>
+    <string name="douyin">短いビデオ</string>
+
+    <string name="is_send_ing">送っています…</string>
+    <string name="is_send_ok">発送済み</string>
+    <string name="back_app">%sに戻る</string>
+    <string name="stay_here">メッセンジャーに残る</string>
+
+    <string name="tip_get_life_circle_number_failed">生活圏の新規情報獲得に失敗</string>
+
+    <string name="all_image">すべての写真</string>
+    <string name="confirm_to_delete">削除確認?</string>
+    <string name="deleted_a_photo">画像を1枚削除しました</string>
+    <string name="done">完成</string>
+    <string name="done_with_count">完了(%1$d/%2$d)</string>
+    <string name="image">写真</string>
+    <string name="image_index" formatted="false">% 1 $ d / % 2 $ d</string>
+    <string name="msg_amount_limit">すでに最高の選択肢数に</string>
+    <string name="msg_no_camera">システムカメラが作動しない</string>
+    <string name="preview">プレビュー</string>
+    <string name="undo">撤回</string>
+    <string name="original_image">原図</string>
+    <string name="search_contact_group">友だち/グループ検索</string>
+
+    <string name="me_tab_friend">親友</string>
+    <string name="tip_me_query_friend_failed">友だち数の獲得に失敗</string>
+    <string name="tip_me_query_group_failed">グループ数の取得に失敗</string>
+    <string name="send_image_text">図文を送る</string>
+    <string name="skin_classy_gray">質感グレー</string>
+
+    <string name="tip_live_locking">あなたの生放送はロックされています、顧客サービスに連絡してロックを解除してください</string>
+    <string name="remove_member_notify">グループ人員削減のお知らせ</string>
+    <string name="tip_exit_group_notify">閉鎖後、グループ内のメンバーがグループから追い出されたり、自発的にグループから脱退したりした場合、グループ内での通知は行われない。</string>
+    <string name="example_title">タイトル</string>
+    <string name="tip_no_login_permission">登録権限がない</string>
+    <string name="tip_no_share_permission">権限の共有がない</string>
+    <string name="tip_incomplete_information">情報が不完全なので、ニックネームが空かどうかチェックしてください</string>
+
+    <!--短视频模块-->
+    <string name="text_comment_num">評論</string>
+    <string name="text_no_comment">何も言わずにソファーを取りに来た</string>
+    <string name="leave_you_comment">素敵なコメントを残しましょう</string>
+
+    <!-- Add a Sound -->
+    <string name="select_music">音楽を選ぶ</string>
+
+    <string name="select_cover">表紙を選ぶ</string>
+
+    <!--flip-->
+    <string name="camera_flip">反り</string>
+    <string name="filters">フィルター</string>
+    <string name="effects">効果</string>
+    <string name="cover">ジャケット</string>
+    <!--Original Sound-->
+    <string name="Original_Sound">ネイティブサウンド</string>
+    <!--Adjust video speed-->
+    <string name="video_speed">映像の速度を調節する</string>
+    <string name="compressed">圧縮中</string>
+    <string name="modified">修正中</string>
+    <string name="music">音楽</string>
+    <string name="volume">ボリューム</string>
+
+    <string name="compre_success">圧縮に成功する</string>
+    <string name="compre_failure">圧縮失敗</string>
+    <string name="flatten_failure">つなぎ合わせに失敗する</string>
+
+    <!--Very slow-->
+    <string name="video_speed_0">ごくゆっくり</string>
+    <string name="video_speed_1">のろい</string>
+    <string name="video_speed_2">早く</string>
+    <string name="video_speed_3">速く</string>
+
+    <string name="tip_collection_canceled">コレクションのキャンセル成功</string>
+    <string name="search_public_number">公衆番号を検索する</string>
+    <string name="tip_search_public_number">公衆番号</string>
+    <string name="hint_search_public_number">公衆番号名を入力してください</string>
+    <string name="delete_public_number">フォローをやめる</string>
+    <string name="ask_delete_public_number">フォローをキャンセルしますか?</string>
+    <string name="tip_delete_public_number_success">フォローキャンセル成功</string>
+    <string name="has_delete_public_number_place_holder">既にキャンセルしたフォロー:%s</string>
+    <string name="tip_get_friends_failed">友だちリストの読み込み失敗</string>
+
+    <string name="hint_invisible">隠れている人は発言してはいけない</string>
+    <string name="tip_set_invisible_place_holder"  formatted="false">%sを設定して%sを隠者にする</string>
+    <string name="tip_cancel_invisible_place_holder"  formatted="false">%sは%sの隠者を取り消す</string>
+    <string name="tip_set_guardian_place_holder"  formatted="false">%s監視人に設定する%s</string>
+    <string name="tip_cancel_guardian_place_holder"  formatted="false">%sは%sの監視人をキャンセルする</string>
+    <string name="set_invisible">隠者を指定する</string>
+    <string name="cancel_invisible">隠遁者をなくす</string>
+    <string name="set_guardian">監視人を指定する</string>
+    <string name="cancel_guardian">監視人をなくす</string>
+    <string name="tip_set_invisible_success">隠者設置成功</string>
+    <string name="tip_set_guardian_success">監視人の設置成功</string>
+    <string name="tip_cancel_invisible_success">隠者の排除成功</string>
+    <string name="tip_cancel_guardian_success">監視人のキャンセル成功</string>
+    <string name="role_invisible">隠れ人</string>
+    <string name="role_guardian">人を監視する</string>
+    <string name="delete_some">削除してください</string>
+    <string name="record_frist_video">ビデオを録画してください</string>
+
+    <string name="message_channel_name">ニュース</string>
+    <string name="tip_opposite_offline_end_call">異常な断線、通話終了か</string>
+    <string name="tip_query_file_error_place_holder">ファイル照会失敗、%s</string>
+    <string name="tip_query_audio_video_error_place_holder">av検索失敗、%s</string>
+    <string name="tip_query_image_error_place_holder">画像検索失敗、%s</string>
+    <string name="tip_query_document_error_place_holder">文書照会失敗、%s</string>
+    <string name="tip_query_application_error_place_holder">クエリ適用失敗、%s</string>
+    <string name="tip_query_other_error_place_holder">他のクエリ失敗、%s</string>
+    <string name="tip_opposite_busy_call">相手は忙しい</string>
+    <string name="tip_version_disabled">現在のバージョンは無効になっています。最新バージョンをダウンロードしてください。</string>
+    <string name="tip_cannot_set_self_role">自分の身分を変えることはできない</string>
+
+    <string name="hint_invitation_code">招待コードを記入する</string>
+    <string name="hint_input_phone_number">携帯番号を入力してください</string>
+    <string name="hint_input_username">ユーザー名を入力してください</string>
+    <string name="username">ユーザー名</string>
+    <string name="tip_username_empty">ユーザー名は空にしない</string>
+    <string name="tip_username_too_long">ユーザー名は10桁まで</string>
+    <string name="nickname_or_username">ニックネームやユーザー名</string>
+    <string name="nickname_or_phone_number">ニックネームや携帯番号</string>
+    <string name="hint_input_nickname_or_username">ニックネームやユーザー名を入力してください</string>
+    <string name="hint_input_nickname_or_phone_number">ニックネームや携帯番号を入力してください</string>
+    <string name="tip_not_allow_create_room">現在は一般ユーザーのグループ化は許可されていません</string>
+    <string name="invite_code">招待コード</string>
+    <string name="tip_invite_code_empty">招待コードを入力してください</string>
+    <string name="praise_ending_place_holder">「いいね」と思った人は%d</string>
+    <string name="tip_unkown_error_place_holder">未知の異常%s</string>
+    <string name="tip_praise_load_error">「いいね!」リストのロード失敗</string>
+    <string name="tip_no_more">これ以上はない</string>
+    <string name="tip_load_more">クリックしてもっとロードする</string>
+    <string name="tip_comment_load_error">レビューリストのロード失敗</string>
+    <string name="tip_friend_account_removed_place_holder">%sアカウントはすでに削除されている</string>
+    <string name="tip_group_disable_by_service">このグループはバックグラウンドでロックされています</string>
+    <string name="tip_group_manager_close_conference_features">グループオーナーは一般メンバーの会議開始機能をオフにしました</string>
+    <string name="member_limit">人数の上限</string>
+
+    <string name="chat_camera_record">撮影</string>
+    <string name="me_title">個人センター</string>
+    <string name="square_title_first">人気アプリ</string>
+    <string name="tip_more_action">さらなる応用にご期待ください!</string>
+    <string name="square_title_second">すばらしい活動。</string>
+    <string name="tip_public_number_list_failed">公衆番号リストの取得失敗</string>
+    <string name="hot_public_number">人気のある公式アカウント</string>
+
+    <string name="tip_alipay_failed">アリペイ立ち上げ失敗</string>
+    <string name="tip_alipay_auth_failed">アリペイのライセンス失敗</string>
+    <string name="tip_withdraw_success">引き出し成功</string>
+    <string name="tip_withdraw_empty">引き出し金額を入力してください</string>
+    <string name="tip_withdraw_too_little">キャッシュバック金額は少なくとも1元</string>
+    <string name="tip_balance_not_enough">現在残高が不足している</string>
+    <string name="withdraw_wechat">wechatにキャッシュする</string>
+    <string name="withdraw_alipay">alipayにキャッシュする</string>
+    <string name="tip_withdraw_cost">引き出し手数料は1%、最低引き出し手数料は1元</string>
+
+    <string name="test_listen_voice">试听</string>
+    <string name="open_auto_launcher">\nは現在の携帯電話がOPPOの携帯電話であることを検出して、舞台裏で実行する時音声とビデオを受信したならば自働的に発働することができ(ありえ)て、「携帯電話の執事-権限のプライバシー-自起働管理」内にこのアプリケーションを起働して開きます</string>
+    <string name="tip_handing_up">切っている</string>
+    <string name="system_notification_user_name">システムのヒント</string>
+    <string name="tip_opposite_offline_auto__end_call">相手が異常に断線し、今度の通話は終了</string>
+    <string name="tip_share_type_not_supported">サポートしないタイプの共有</string>
+    <string name="name_third_tool">サードパーティ製ツール</string>
+    <string name="tip_file_cache_failed">ファイルの開封失敗</string>
+    <string name="send_to_life_circle">生活圏に送る</string>
+    <string name="tip_confirm_send">お気に入りメッセージの送信確定?</string>
+
+    <string name="floating_window">窓が浮かぶ</string>
+    <string name="floating_window_cancel">浮き窓をなくす</string>
+    <string name="share_to_life_circle">生活圏に共有する</string>
+    <string name="search_paper_content">検索ページの内容</string>
+    <string name="copy_link">リンクをコピーする</string>
+    <string name="tip_copied_to_clipboard">クリップボードにコピー済み</string>
+    <string name="open_outside">ブラウザで開く</string>
+    <string name="modify_font_size">フォントを調整する</string>
+    <string name="refresh">更新</string>
+    <string name="complaint">クレーム</string>
+    <string name="complaint_reason_1">ウェブページには詐欺情報(例:偽のお年玉)が含まれています。</string>
+    <string name="complaint_reason_2">ウェブサイトにはポルノ情報が含まれています</string>
+    <string name="complaint_reason_3">このページには暴力テロ情報が含まれています</string>
+    <string name="complaint_reason_4">政治的に敏感な情報が含まれています</string>
+    <string name="complaint_reason_5">このページはプライバシー情報の収集に含まれます(例:フィッシングリンク)。</string>
+    <string name="complaint_reason_6">ウェブページには共有/関心を誘導するコンテンツが含まれている</string>
+    <string name="complaint_reason_7">ウェブページにはデマ情報が含まれている可能性がある</string>
+    <string name="complaint_reason_8">ウェブサイトにはギャンブル情報が含まれています</string>
+    <string name="tip_file_not_supported">このファイルをサポートしない</string>
+    <string name="search_chat_content">チャット履歴を調べる</string>
+
+    <string name="sk_pay">公衆番号の支払い</string>
+    <string name="transfer_money">振替</string>
+    <string name="tip_transfer_money">[送金]</string>
+    <string name="transfer_money_num">振り込み金額</string>
+    <string name="transfer_money_desc">送金の説明を入れる</string>
+    <string name="transfer_modify">修正</string>
+    <string name="transfer_desc_max_length_10">最大10文字まで入力</string>
+    <string name="transfer_money_to_someone">%sに送金する</string>
+    <string name="transfer_money_to_someone2">%sに送金する</string>
+    <string name="transfer_money_to_someone3">あなたに送金する</string>
+    <string name="transfer_input_money">正しい金額を入力してください</string>
+    <string name="transfer_wait_receive1">待%s入金確認</string>
+    <string name="transfer_receive_status1">1日以内に友達が確認しない場合、お返しします。</string>
+    <string name="transfer_receive_click_status1">送金メッセージの再送</string>
+    <string name="transfer_wait_receive2">%sはお金を受け取りました</string>
+    <string name="transfer_receive_status2">相手の小銭に入金した</string>
+    <string name="transfer_wait_receive3">払い戻し済み(期限が切れている)</string>
+    <string name="transfer_receive_status3">小銭を返金しました。</string>
+    <string name="transfer_receive_click_status2">小銭を調べる</string>
+    <string name="transfer_sure_receive">集金を確認する</string>
+    <string name="transfer_push_receive1">受取確認待ち</string>
+    <string name="transfer_push_receive2">1日以内に確認しない場合は相手に返金する</string>
+    <string name="transfer_push_receive3">金を受け取った</string>
+    <string name="transfer_time">送金時間:%s</string>
+    <string name="transfer_out_time">返却期間:%s</string>
+    <string name="transfer_receive_time">お金を受け取る時間:%s</string>
+    <string name="transfer_received">振り込みはすでに相手が受け取っている</string>
+    <string name="transfer_backed">振り込みは返送した</string>
+    <string name="notification_praise_me_life_circle">私が関わっている「生活圏」を「いいね!」</string>
+    <string name="notification_comment_me_life_circle">私と関連した[生活圏]を評論した</string>
+    <string name="notification_at_me_life_circle">あなたの生活圏について話しました</string>
+
+    <string name="receipt_payment">支払いコード</string>
+    <string name="rp_payment">支払い</string>
+    <string name="rp_payment_tip1">支払いコード</string>
+    <string name="rp_payment_tip2">決済コードの数字は、支払い時にレジに表示するためのもので、他人に送信しないでください。詐欺被害を防ぐためです。</string>
+    <string name="rp_payment_tip3">分かった</string>
+    <string name="rp_payment_tip4">決済コードの数字は、支払い時にレジに表示するだけなので、漏えいはご遠慮ください。</string>
+    <string name="rp_receipt">qrコードによる集金</string>
+    <string name="rp_receipt2">集金</string>
+    <string name="rp_receipt_tip1">qrコードを見てお金を払い</string>
+    <string name="rp_receipt_tip2">設定金額</string>
+    <string name="rp_receipt_tip3">清算金額</string>
+    <string name="rp_receipt_tip4">入金コードを保存する</string>
+    <string name="success">成功</string>
+    <string name="qr_code_synthesis_fail">コード合成に失敗</string>
+    <string name="receipt_money_num">集金金額</string>
+    <string name="receipt_add_desc">入金の説明を添える</string>
+    <string name="receipt_pay_single">個人に支払いをする</string>
+    <string name="receipt_add_remake">備考をつける</string>
+    <string name="receipt_set_money">設定金額</string>
+
+    <string name="transfer_back_notify">振り込み期限切れの払い戻し通知</string>
+    <string name="transfer_back_num">払い戻し金額:</string>
+    <string name="transfer_back_type">払い戻し方法:</string>
+    <string name="transfer_back_type_money">小銭を返す</string>
+    <string name="transfer_back_reason">返却理由:</string>
+    <string name="transfer_back_reason_out_time">%sは24時間以内にあなたの送金を受け取らない</string>
+    <string name="transfer_back_time">返却時期:</string>
+    <string name="transfer_transfer_time">振り込み時間:</string>
+    <string name="payment_get_notify">支払い通知</string>
+    <string name="payment_get_num">支払い金額</string>
+    <string name="payment_receipt_user">支払先</string>
+    <string name="payment_status">取引状態</string>
+    <string name="payment_status_reason">支払いは成功し,相手はすでに集金した</string>
+    <string name="receipt_get_notify">入金通知</string>
+    <string name="receipt_get_num">集金金額</string>
+    <string name="receipt_payment_user">支払い先</string>
+    <string name="receipt_remark">备考</string>
+    <string name="receipt_remark_reason">入金できました。小銭を入金しました。</string>
+    <string name="payment">%s支払い済み</string>
+    <string name="receipted">%s受取済み</string>
+
+    <string name="open_screen_lock_show">「ロック画面表示」をオンにする</string>
+    <string name="open_screen_lock_show_for_audio">"ロック画面表示"の権限を開いて、ロック画面の時も音声とビデオの着信のインターフェースをポップアップすることができます</string>
+    <string name="tip_disallow_invite_role_place_holder">%s親友は呼べない</string>
+    <string name="group_manager">管理人</string>
+    <string name="tip_not_allow_delete">この公衆番号は削除を許可しない</string>
+
+    <string name="bind_account_set">アカウントとバインディング設定</string>
+    <string name="band_phone">携帯電話を結びつける</string>
+    <string name="other_login_way">その他の登録方法</string>
+    <string name="wechat">wechat</string>
+    <string name="banded">結びつけられている</string>
+    <string name="no_band">結び付けていない</string>
+    <string name="band">据え置き</string>
+
+    <string name="video_all">すべて</string>
+    <string name="video_food">グルメ</string>
+    <string name="video_scenery">スポット</string>
+    <string name="video_culture">文化</string>
+    <string name="video_recreation">游</string>
+    <string name="video_sport">運動</string>
+    <string name="video_hotel">ホテル</string>
+    <string name="video_shopping">ショッピング</string>
+
+    <!--"确定要解除微信绑定?""将前往微信绑定账号"前往绑定-->
+    <string name="dialog_toast">wechatのバインディング解除を確定?</string>
+    <string name="dialog_being_go">wechatのアカウントにアクセスします</string>
+    <string name="dialog_Relieve">バインディングを解除する</string>
+    <string name="dialog_go">バインディングに行く</string>
+
+    <!--Filter -->
+    <string name="video_filter">フィルター</string>
+    <!--tv_whiten-->
+    <string name="tv_whiten">白</string>
+    <string name="tv_skin">磨皮</string>
+    <string name="centent_bar">%sログイン</string>
+    <string name="transfer_back">振り込み返送</string>
+    <string name="keep_reconnection">重連している…</string>
+    <string name="transfer_friend_sure_save">友人が金を受け取ることを確認した</string>
+    <string name="bind_phone_number">携帯電話番号を結びつける</string>
+    <string name="back_last_page">前のページに戻る</string>
+    <string name="open_im">メッセンジャーを開く</string>
+    <string name="added_notice_friend">公衆番号を追加しました</string>
+    <string name="tip_load_cover">表紙取得中</string>
+    <string name="cancel_upload">アップロードを取り消す</string>
+    <string name="sure_cancel_upload">アップロードのキャンセル確認?</string>
+    <string name="x_phone_address_group">%sの携帯電話連絡先グループ</string>
+    <string name="sms_content">私は%sを使っています私と一緒に試してみてください</string>
+    <string name="mark_read">既読表記にする</string>
+    <string name="mark_unread">未読とする</string>
+    <string name="share_app">分享%s…</string>
+    <string name="search_group">検索グループ</string>
+    <string name="hint_search_room">グループ名を入力してください</string>
+    <string name="string_install_unknow_apk_note">未知のソースのアプリケーションをインストールする必要がある</string>
+    <string name="s_search_designation_content">指定された内容を検索する</string>
+    <string name="s_date">日付</string>
+    <string name="s_image_video">写真と動画</string>
+    <string name="s_image">写真</string>
+    <string name="s_video">動画</string>
+    <string name="s_file">ファイル</string>
+    <string name="s_link">リンク</string>
+    <string name="s_pay">取引</string>
+    <string name="s_music">音楽</string>
+    <string name="please_input_account">アカウントを入力してください</string>
+    <string name="please_input_account_and_password">口座番号とパスワードを入力してください</string>
+    <string name="secure_settings">安全設定</string>
+    <string name="enable_device_lock">装置のロックをはずす</string>
+    <string name="title_set_device_lock_password">デバイスロックのパスワードを設定する</string>
+    <string name="tip_device_password_empty">パスワードは空欄にしない</string>
+    <string name="unlock">ロック</string>
+    <string name="tip_device_lock_password_incorrect">パスワードの誤り</string>
+    <string name="tip_input_device_lock">デバイスロックのパスワードを入力してください</string>
+    <string name="tip_change_device_lock_password_input_old">デバイスロックのパスワードを入力して身元を確認してください</string>
+    <string name="set_device_lock_password">デバイスロックのパスワードを設定する</string>
+    <string name="tip_change_device_lock_password_input_new">デバイス認証用にデバイスロックのパスワードを設定してください</string>
+    <string name="change_device_lock_password">デバイスロックのパスワードを変更する</string>
+    <string name="tip_change_device_lock_password_input_twice">デバイスのロック番号を再度入力して確認してください</string>
+    <string name="tip_change_device_lock_password_input_incorrect">パスワードの入力が2回一致しない</string>
+    <string name="tip_device_lock_free">5分でロック解除</string>
+    <string name="red_received_self">あなたは%sのご祝儀を受け取った</string>
+    <string name="transfer_received_self">先方から振り込みを受け取りました</string>
+    <string name="start_transfer">%s送金開始</string>
+    <string name="red_someone">%sのご祝儀</string>
+    <string name="tip_red_packet_too_slow">寸志の数は最低1つ</string>
+    <string name="reply_red_thank">一言お礼を言いましょう。</string>
+    <string name="input_most_length">最大で%d文字入力</string>
+    <string name="sk_account_code">速话</string>
+    <string name="sk_account">% s番</string>
+    <string name="sk_account_set">%sサイズを設定する</string>
+    <string name="sk_account_single">%s番号はアカウントの唯一の証明で、一度しか設定できない</string>
+    <string name="sk_account_exist">現在のアカウントが存在している</string>
+    <string name="send_contacts">連絡先</string>
+    <string name="replay_button">回复</string>
+    <string name="replay_label">回复</string>
+
+    <array name="filter_effect">
+        <item>正常</item>
+        <item>阳光</item>
+        <item>古风</item>
+        <item>热力</item>
+        <item>黑白</item>
+        <item>暖色</item>
+        <item>冬季</item>
+        <item>冷色</item>
+        <item>清脆</item>
+        <item>清冷</item>
+        <item>淡黄</item>
+        <item>深黄</item>
+        <item>自然</item>
+        <item>浪漫</item>
+        <item>印花</item>
+        <item>素描</item>
+        <item>日落</item>
+        正常
+        日差しが
+        古風さん
+        汽力
+        白黒
+        常夜灯
+        冬
+        冷色
+        摇れる
+        ひっそりした
+        メメメメメメメメメメメメメメメメメメメメメメメメメ
+        黄色く染まっ
+        自然
+        ロマンチックな
+        プリント
+        スケッチ
+        日没
+    </array>
+
+    <string name="screening_condit">選別</string>
+    <string name="switch_account_way">検証方式の切り替え</string>
+    <string name="privacy_allow_none">全員が許可しない</string>
+    <string name="privacy_allow_all">すべての人が許可する</string>
+    <string name="privacy_allow_friend">全ての友人が</string>
+    <string name="privacy_allow_contact">携帯電話の連絡先は</string>
+    <string name="tip_allow_join_room">グループに招待されて</string>
+    <string name="tip_allow_call">発音のビデオ通話を許可してくれました</string>
+    <string name="tip_allow_message">誰かが私にメッセージを送るのを許して</string>
+    <string name="tip_show_phone">誰が私の携帯番号を見て</string>
+    <string name="tip_show_last_login_time">誰が私のオンライン時間を</string>
+    <string name="privacy_whitelist">ホワイトリスト</string>
+    <string name="privacy_blacklist">ブラックリスト</string>
+
+    <string name="tip_allow_phone_search">携帯番号で検索を許可してくれました</string>
+    <string name="tip_allow_name_search">ニックネームで私を検索できるようにしました</string>
+    <string name="tip_friend_from">私を加えることを許可する方法</string>
+
+    <string name="friend_from_allow_none">全部許さない</string>
+    <string name="friend_from_allow_all">全部許可する</string>
+    <array name="friend_from_type">
+        <item>二维码</item>
+        <item>名片</item>
+        <item>群组</item>
+        <item>手机号搜索</item>
+        <item>昵称搜索</item>
+        <item>其他</item>
+        qrコード
+        名刺
+        の集団
+        携帯電話番号検索
+        ニックネーム検索
+        他の
+    </array>
+
+    <string name="face_to_face_group">向かい合って群をつくる</string>
+    <string name="face_to_face_group_tip1">隣の友達と同じ4つの数字を入力して、\nは同じグループチャットに入る</string>
+    <string name="face_to_face_group_tip2">グループチャットにも参加します</string>
+    <string name="face_to_face_group_tip3">群れに入る</string>
+    <string name="transfer_record">振り込み記録</string>
+    <string name="red_packet_has_received">ご祝儀はすでに受け取り終えました</string>
+    <string name="red_packet_has_received_place_holder">,紅包は%s内に受け取り終わった</string>
+    <string name="red_best_lucky">手の調子が一番いい</string>
+    <string name="tip_remote_screenshot">相手がチャットでスクリーンショットを撮る</string>
+    <string name="label_online_time">前回のオンラインタイム</string>
+
+    <string name="set_remark_and_label">備考とラベルを設定する</string>
+    <string name="tip_input_describe">記述を入力してください</string>
+    <string name="sava_video">ビデオを保存する</string>
+    <string name="tip_meet_server_empty">サーバーアドレスは空</string>
+    <string name="hint_input_old_password">古いパスワードを入力してください</string>
+    <string name="tip_no_wx_chat">wechatクライアントをインストールする必要があります</string>
+    <string name="tip_friend_not_found">親友は存在しない</string>
+    <string name="more_info">さらなる情報</string>
+    <string name="setting_nickname">備考とラベルを設定する</string>
+    <string name="nick_name">愛称:</string>
+    <string name="communication">速聊号:</string>
+    <string name="describe">描写</string>
+
+    <string name="sync_friend">同期フレンド</string>
+    <string name="sync_group">同期グループ</string>
+
+    <string name="sync_chat_history_clean">お互いのチャット履歴を空にする</string>
+    <string name="tip_sync_chat_history_clean">その人とのチャット履歴の消去を確認する(相手のデバイスのチャット履歴もクリアになります)?</string>
+    <string name="tip_sync_chat_history_clean_to">相手が双方向でチャット履歴を消去する操作を行った</string>
+    <string name="tip_no_local_browser">ブラウザーの起動失敗</string>
+    <string name="group_assistant">群助手</string>
+    <string name="group_assistant_not_open_by_owner">グループマスターはまだグループアシスタント機能を使っていません</string>
+    <string name="group_assistant_not_has_keyword">キーワードはまだないよ</string>
+    <string name="auto_reply_assistant">自動応答アシスタント</string>
+    <string name="auto_reply_assistant_desc">グループの主の小さいヘルパー、グループの主は内容を設定することができて、メンバーが入力する時、自働で返信します</string>
+    <string name="keyword_has_been_add">追加されたキーワード</string>
+    <string name="keyword_has_been_set">設定済みのキーワード</string>
+    <string name="keyword_manager">キーワード管理</string>
+    <string name="please_edit_keyword">キーワードを入力してください</string>
+    <string name="reply_content">返信の内容</string>
+    <string name="please_edit_reply_content">返信の内容</string>
+    <string name="developer">開発者:%s</string>
+    <string name="disclaimer">免責事項:このサービスは%sによって提供されます。関連サービスや責任は同社が担う。質問があれば、同社カスタマーサポートまでお問い合わせください。</string>
+
+    <string name="sure_pay">支払いを確認する</string>
+    <string name="order_info">注文情報</string>
+    <string name="pay_method">支払い方式。</string>
+    <string name="change_payment">小銭払い</string>
+    <string name="pay">%s支払い</string>
+    <string name="tip_privacy">登録することは「プライバシー規約およびサービス規約」に同意することを意味します。</string>
+    <string name="tip_privacy_not_agree">ユーザー契約に同意してください</string>
+    <string name="tip_splash_permission_explain">\n1.アプリに以下の権限を許可してください。\n2.録音の権限は音声を送信するために使用\n3.携帯電話の状態の権限は、机器の状態を取得することを申請するだけで、通話記録の監視\n4.ファイルを保存するための権限を記憶する</string>
+    <string name="tip_permission_header">アプリに以下の権限を与えてください</string>
+    <string name="tip_permission_camera">・カメラ権限、撮影機能用</string>
+    <string name="tip_permission_voice">・音声送信用の録音権限</string>
+    <string name="tip_permission_phone">・携帯電話のステータス権限は、機器のステータスのみを取得し、通話履歴は監視しない</string>
+    <string name="tip_permission_storage">・ファイルを保存するための権限を記憶する</string>
+    <string name="tip_permission_location">・位置情報を送信する権限</string>
+    <string name="tip_permission_contacts">・連絡先の友だちを見つけるための連絡先権限を読み込む</string>
+
+    <string name="suffix_invite_you_voice_meeting">音声会議にご招待いたします</string>
+    <string name="suffix_invite_you_video_meeting">テレビ会議に招待します</string>
+    <string name="suffix_invite_you_talk">インターホンをお招きします</string>
+    <string name="tip_invite_talk_meeting">インターホンをお招きします</string>
+    <string name="name_talk">インターホン</string>
+
+    <string name="tip_talk_free">インターホンひま</string>
+    <string name="title_talk_online_list">会話係</string>
+    <string name="tip_talk_press_in">言葉を押さえる</string>
+    <string name="tip_talk_connecting">接続中</string>
+    <string name="label_last_request_talk_time">前回麦を奪う:</string>
+    <string name="label_last_talk_length">発表時間:</string>
+    <string name="tip_talker_ping_failed">ネットワーク異常</string>
+
+    <string name="pay_certificate">支払い証明書</string>
+    <string name="tip_cannot_edit_bulletin">グループオーナーまたは管理者のみが公告を編集できる</string>
+    <string name="btn_privacy_disagree">同意しない</string>
+    <string name="btn_privacy_agree">同意</string>
+    <string name="tip_privacy_can_not_disagree">プライバシーポリシーに同意しなければ利用できない</string>
+    <string name="btn_privacy_re_reading">読み返す</string>
+    <string name="title_privacy_policy">プライバシーポリシー</string>
+    <string name="backup_chat_history">チャット履歴のバックアップと移行</string>
+    <string name="label_migrate_chat_to_another_device">チャット記録を別のデバイスに遷移させる</string>
+    <string name="tip_migrate_chat_need_wifi">2台のデバイスを同じwi-fiまたはホットスポットに接続してください</string>
+    <string name="btn_select_chat">チャット履歴を選択する</string>
+    <string name="addBankCard">キャッシュカードを追加する</string>
+    <string name="Cardholder">カードホルダー</string>
+    <string name="binding">据え置き</string>
+    <string name="LifeDynamics">生活動態。</string>
+    <string name="Honey">アナグマ・エンターテインメント</string>
+    <string name="ID">身分証明書</string>
+    <string name="ScanCode">扫ヤード</string>
+    <string name="CardNumber">ナンバー</string>
+    <string name="bank">銀行</string>
+    <string name="contactsP">連絡先</string>
+    <string name="explore">探求</string>
+    <string name="findTitle">発見</string>
+    <string name="MassMessaging">メッセージの一斉送信</string>
+    <string name="tv_title_left">ニュース</string>
+    <string name="NewNews">新しいニュース</string>
+    <string name="tv_bank">銀行を選んでください</string>
+    <string name="PlaceOfBankAccount">銀行の口座開設</string>
+    <string name="input_city">銀行口座を入力してください</string>
+    <string name="input_card_num">カード番号を入力してください</string>
+    <string name="mobilePhoneMumber">所持者の携帯電話番号を入力してください</string>
+    <string name="cellPhoneNumber">携帯電話番号</string>
+    <string name="cardholderID">カード所持者の身分証を入力してください</string>
+    <string name="PleaseEnterTheCardholderName">所持者の名前を入力してください</string>
+    <string name="select_chat_history">チャット履歴を選択する</string>
+    <string name="migrate_chat_count_place_holder">遷移数:%dチャット</string>
+    <string name="cancel_all">全選挙を廃止する</string>
+    <string name="send_chat_history">チャット履歴の遷移</string>
+    <string name="tip_migrate_chat_history_scan">別のデバイスでこのアカウントにログインしてqrコードをスキャンしてください</string>
+    <string name="tip_migrate_chat_history_failed">チャット履歴の導出に失敗した場合はネットワークをチェック</string>
+    <string name="tip_migrate_chat_history_sending">接続され、チャット履歴を遷移中</string>
+    <string name="tip_send_chat_history_success">チャット記録送信成功</string>
+    <string name="tip_receive_chat_history_finish">すべてのチャットを受信しました</string>
+    <string name="tip_receive_chat_history_failed">チャットログの導入に失敗</string>
+    <string name="tip_migrate_chat_history_wrong_user">同じアカウントにログインしてチャットを遷移させてください</string>
+    <string name="start_edit">編集</string>
+    <string name="tip_web_login_success">ログインに成功する</string>
+
+    <string name="filter_none">原図</string>
+    <string name="filter_antique">レトロ</string>
+    <string name="filter_emerald">エメラルド</string>
+    <string name="filter_healthy">健康</string>
+    <string name="filter_nostalgia">レトロ</string>
+    <string name="filter_crayon">クレヨン</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tip_group_owner_update_msg_auto_destroy_time">グループマスター設置グループメッセージの期限切れ廃棄時間は%s</string>
+    <string name="copy_sure">複製を確定する</string>
+    <string name="tip_notification_open_url_failed">ページを開くのに失敗する</string>
+    <string name="skin_minimalism_red">ごくシンプルな赤</string>
+    <string name="tip_location_xy_null">緯度と経度が空である</string>
+    <string name="skin_minimalism_green">ミニマムグリーン</string>
+    <string name="skin_minimalism_blue">ミニマムブルー</string>
+    <string name="skin_minimalism_pink">ミニマムパウダー</string>
+    <string name="replay_infix_comment">回复</string>
+    <string name="pay_password_empty_error">支払いパスワードは空ではなく、長さは6桁の数字でなければならない</string>
+    <string name="pay_confirm_password_empty_error">支払いを確認するパスワードは空ではなく、長さは必ず6桁の数字</string>
+
+</resources>

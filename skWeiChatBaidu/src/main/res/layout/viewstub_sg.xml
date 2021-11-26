@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ydd.yanshi.view.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#EBEBEB"
+                                        android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.ydd.yanshi.view.MyLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.ydd.yanshi.view.ChatContentView
+                android:id="@+id/chat_content_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:cacheColorHint="#EBEBEB"
+                android:divider="#00000000"/>
+
+            <com.ydd.yanshi.ui.me.sendgroupmessage.ChatBottomForSendGroup
+                android:id="@+id/chat_bottom_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#EBEBEB"
+                android:divider="#00000000"/>
+
+        </com.ydd.yanshi.view.MyLinearLayout>
+
+    </FrameLayout>
+
+</com.ydd.yanshi.view.MyLinearLayout>
