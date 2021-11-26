@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-iPhone_X_XS_11_Pro_6">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_11_Pro_6" data-name="iPhone X、XS、11 Pro – 6" clip-path="url(#clip-iPhone_X_XS_11_Pro_6)">
+    <g id="组_35" data-name="组 35" transform="translate(-5 -5)">
+      <path id="路径_32" data-name="路径 32" d="M121.921,104.862a5.671,5.671,0,1,0-5.117,0,8.093,8.093,0,0,0-5.52,7.663.687.687,0,0,0,1.373,0,6.706,6.706,0,1,1,13.412,0,.687.687,0,0,0,1.373,0,8.093,8.093,0,0,0-5.521-7.663ZM115.064,99.8a4.3,4.3,0,1,1,4.3,4.3A4.3,4.3,0,0,1,115.064,99.8Z" transform="translate(-99.376 -84.774)" fill="#595959"/>
+      <path id="路径_33" data-name="路径 33" d="M90.838,69.673a14.966,14.966,0,1,0,4.383,10.582,14.868,14.868,0,0,0-4.383-10.582ZM80.256,93.849A13.593,13.593,0,1,1,93.849,80.256,13.608,13.608,0,0,1,80.256,93.849Z" transform="translate(-60.222 -60.222)" fill="#bcbaba" opacity="0.3"/>
+    </g>
+  </g>
+</svg>
